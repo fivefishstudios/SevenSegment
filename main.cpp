@@ -104,7 +104,7 @@ void Display_Number(int Number){
   if (Number > 99){
     hundreds = Number / 100;
     Display_Digit(1, hundreds);
-    wait(0.009);
+    wait(0.004);    // if delay is too short, LED will be dim. If too long, we'll have flickering
 
     tens = (Number % 100) / 10;
     Display_Digit(2, tens);
@@ -112,17 +112,17 @@ void Display_Number(int Number){
 
     ones = (Number % 100) % 10;
     Display_Digit(3, ones);
-    wait(0.001);
+    wait(0.0009);
   }
 
   if (Number > 9){  
     tens = (Number % 100) / 10;
     Display_Digit(2, tens);
-    wait(0.005);
+    wait(0.003);
 
     ones = (Number % 100) % 10;
     Display_Digit(3, ones);
-    wait(0.003);
+    wait(0.002);
   }
   else {
     Display_Digit(3, Number);
@@ -140,6 +140,7 @@ int main() {
     for (int i=0; i<1000; i++){
        Display_Number(i);
     }
+    // Display_Number(125);
   }
 
   return 0;  
