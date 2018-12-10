@@ -37279,1284 +37279,1284 @@ LOAD /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/thu
                 0x00000000080005ac      0x11c BUILD/main.o
                 0x00000000080005ac                Display_Digit(int, int)
  .text._Z14Display_Numberi
-                0x00000000080006c8       0x98 BUILD/main.o
+                0x00000000080006c8       0x94 BUILD/main.o
                 0x00000000080006c8                Display_Number(int)
  .text.startup.main
-                0x0000000008000760       0x28 BUILD/main.o
-                0x0000000008000760                main
+                0x000000000800075c       0x28 BUILD/main.o
+                0x000000000800075c                main
  .text._ZN4mbed6SerialD0Ev
-                0x0000000008000788       0x1e BUILD/main.o
-                0x0000000008000788                mbed::Serial::~Serial()
-                0x000000000800079a                non-virtual thunk to mbed::Serial::~Serial()
-                0x00000000080007a0                non-virtual thunk to mbed::Serial::~Serial()
- *fill*         0x00000000080007a6        0x2 
+                0x0000000008000784       0x1e BUILD/main.o
+                0x0000000008000784                mbed::Serial::~Serial()
+                0x0000000008000796                non-virtual thunk to mbed::Serial::~Serial()
+                0x000000000800079c                non-virtual thunk to mbed::Serial::~Serial()
+ *fill*         0x00000000080007a2        0x2 
  .text.startup._GLOBAL__sub_I_pc
-                0x00000000080007a8       0xc0 BUILD/main.o
- .text          0x0000000008000868       0xcc BUILD/mbed-os/cmsis/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
-                0x0000000008000868                HardFault_Handler
-                0x0000000008000870                MemManage_Handler
-                0x0000000008000878                BusFault_Handler
-                0x0000000008000880                UsageFault_Handler
-                0x0000000008000888                Fault_Handler
+                0x00000000080007a4       0xc0 BUILD/main.o
+ .text          0x0000000008000864       0xcc BUILD/mbed-os/cmsis/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
+                0x0000000008000864                HardFault_Handler
+                0x000000000800086c                MemManage_Handler
+                0x0000000008000874                BusFault_Handler
+                0x000000000800087c                UsageFault_Handler
+                0x0000000008000884                Fault_Handler
  .text.print_context_info
-                0x0000000008000934       0xec BUILD/mbed-os/cmsis/TARGET_CORTEX_M/mbed_fault_handler.o
-                0x0000000008000934                print_context_info
+                0x0000000008000930       0xec BUILD/mbed-os/cmsis/TARGET_CORTEX_M/mbed_fault_handler.o
+                0x0000000008000930                print_context_info
  .text.mbed_fault_handler
-                0x0000000008000a20       0x90 BUILD/mbed-os/cmsis/TARGET_CORTEX_M/mbed_fault_handler.o
-                0x0000000008000a20                mbed_fault_handler
+                0x0000000008000a1c       0x90 BUILD/mbed-os/cmsis/TARGET_CORTEX_M/mbed_fault_handler.o
+                0x0000000008000a1c                mbed_fault_handler
  .text._ZN4mbed8CallbackIFvvEED2Ev
-                0x0000000008000ab0       0x10 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
-                0x0000000008000ab0                mbed::Callback<void ()>::~Callback()
-                0x0000000008000ab0                mbed::Callback<void ()>::~Callback()
+                0x0000000008000aac       0x10 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
+                0x0000000008000aac                mbed::Callback<void ()>::~Callback()
+                0x0000000008000aac                mbed::Callback<void ()>::~Callback()
  .text._ZN4mbed6TickerD2Ev
-                0x0000000008000ac0       0x24 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
-                0x0000000008000ac0                mbed::Ticker::~Ticker()
-                0x0000000008000ac0                mbed::Ticker::~Ticker()
+                0x0000000008000abc       0x24 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
+                0x0000000008000abc                mbed::Ticker::~Ticker()
+                0x0000000008000abc                mbed::Ticker::~Ticker()
  .text._ZN4mbed6TickerD0Ev
-                0x0000000008000ae4       0x12 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
-                0x0000000008000ae4                mbed::Ticker::~Ticker()
+                0x0000000008000ae0       0x12 BUILD/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
+                0x0000000008000ae0                mbed::Ticker::~Ticker()
  .text._ZN4mbed8CallbackIFvvEEC2ERKS2_
-                0x0000000008000af6       0x16 BUILD/mbed-os/components/wifi/esp8266-driver/ESP8266/ESP8266.o
-                0x0000000008000af6                mbed::Callback<void ()>::Callback(mbed::Callback<void ()> const&)
-                0x0000000008000af6                mbed::Callback<void ()>::Callback(mbed::Callback<void ()> const&)
+                0x0000000008000af2       0x16 BUILD/mbed-os/components/wifi/esp8266-driver/ESP8266/ESP8266.o
+                0x0000000008000af2                mbed::Callback<void ()>::Callback(mbed::Callback<void ()> const&)
+                0x0000000008000af2                mbed::Callback<void ()>::Callback(mbed::Callback<void ()> const&)
  .text._ZN4mbed8CallbackIFvvEEaSERKS2_
-                0x0000000008000b0c       0x1c BUILD/mbed-os/components/wifi/esp8266-driver/ESP8266/ESP8266.o
-                0x0000000008000b0c                mbed::Callback<void ()>::operator=(mbed::Callback<void ()> const&)
+                0x0000000008000b08       0x1c BUILD/mbed-os/components/wifi/esp8266-driver/ESP8266/ESP8266.o
+                0x0000000008000b08                mbed::Callback<void ()>::operator=(mbed::Callback<void ()> const&)
  .text._ZNK12SingletonPtrIN4rtos5MutexEE3getEv
-                0x0000000008000b28       0x50 BUILD/mbed-os/drivers/FlashIAP.o
-                0x0000000008000b28                SingletonPtr<rtos::Mutex>::get() const
+                0x0000000008000b24       0x50 BUILD/mbed-os/drivers/FlashIAP.o
+                0x0000000008000b24                SingletonPtr<rtos::Mutex>::get() const
  .text._ZN4mbed8CallbackIFviEED2Ev
-                0x0000000008000b78       0x10 BUILD/mbed-os/drivers/I2C.o
-                0x0000000008000b78                mbed::Callback<void (int)>::~Callback()
-                0x0000000008000b78                mbed::Callback<void (int)>::~Callback()
+                0x0000000008000b74       0x10 BUILD/mbed-os/drivers/I2C.o
+                0x0000000008000b74                mbed::Callback<void (int)>::~Callback()
+                0x0000000008000b74                mbed::Callback<void (int)>::~Callback()
  .text._ZN4mbed14CircularBufferINS_11TransactionINS_3SPIEEELm2EmED2Ev
-                0x0000000008000b88       0x1e BUILD/mbed-os/drivers/SPI.o
-                0x0000000008000b88                mbed::CircularBuffer<mbed::Transaction<mbed::SPI>, 2ul, unsigned long>::~CircularBuffer()
-                0x0000000008000b88                mbed::CircularBuffer<mbed::Transaction<mbed::SPI>, 2ul, unsigned long>::~CircularBuffer()
+                0x0000000008000b84       0x1e BUILD/mbed-os/drivers/SPI.o
+                0x0000000008000b84                mbed::CircularBuffer<mbed::Transaction<mbed::SPI>, 2ul, unsigned long>::~CircularBuffer()
+                0x0000000008000b84                mbed::CircularBuffer<mbed::Transaction<mbed::SPI>, 2ul, unsigned long>::~CircularBuffer()
  .text._ZN4mbed11TransactionINS_3SPIEEC2Ev
-                0x0000000008000ba6       0x22 BUILD/mbed-os/drivers/SPI.o
-                0x0000000008000ba6                mbed::Transaction<mbed::SPI>::Transaction()
-                0x0000000008000ba6                mbed::Transaction<mbed::SPI>::Transaction()
+                0x0000000008000ba2       0x22 BUILD/mbed-os/drivers/SPI.o
+                0x0000000008000ba2                mbed::Transaction<mbed::SPI>::Transaction()
+                0x0000000008000ba2                mbed::Transaction<mbed::SPI>::Transaction()
  .text.startup._GLOBAL__sub_I__ZN4mbed3SPI19_transaction_bufferE
-                0x0000000008000bc8       0x38 BUILD/mbed-os/drivers/SPI.o
+                0x0000000008000bc4       0x38 BUILD/mbed-os/drivers/SPI.o
  .text._ZN4mbed10FileHandle5lseekEli
-                0x0000000008000c00        0x6 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c00                mbed::FileHandle::lseek(long, int)
+                0x0000000008000bfc        0x6 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000bfc                mbed::FileHandle::lseek(long, int)
  .text._ZN4mbed10FileHandle5fsyncEv
-                0x0000000008000c06        0x6 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c06                mbed::FileHandle::fsync()
+                0x0000000008000c02        0x6 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c02                mbed::FileHandle::fsync()
  .text._ZN4mbed10FileHandle4flenEv
-                0x0000000008000c0c        0x6 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c0c                mbed::FileHandle::flen()
+                0x0000000008000c08        0x6 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c08                mbed::FileHandle::flen()
  .text._ZN4mbed10FileHandle12set_blockingEb
-                0x0000000008000c12        0xc BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c12                mbed::FileHandle::set_blocking(bool)
+                0x0000000008000c0e        0xc BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c0e                mbed::FileHandle::set_blocking(bool)
  .text._ZNK4mbed10FileHandle11is_blockingEv
-                0x0000000008000c1e        0x4 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c1e                mbed::FileHandle::is_blocking() const
+                0x0000000008000c1a        0x4 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c1a                mbed::FileHandle::is_blocking() const
  .text._ZNK4mbed10FileHandle4pollEs
-                0x0000000008000c22        0x4 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c22                mbed::FileHandle::poll(short) const
+                0x0000000008000c1e        0x4 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c1e                mbed::FileHandle::poll(short) const
  .text._ZN4mbed10FileHandle5sigioENS_8CallbackIFvvEEE
-                0x0000000008000c26        0x2 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c26                mbed::FileHandle::sigio(mbed::Callback<void ()>)
+                0x0000000008000c22        0x2 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c22                mbed::FileHandle::sigio(mbed::Callback<void ()>)
  .text._ZN4mbed6Serial5_getcEv
-                0x0000000008000c28        0x4 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c28                mbed::Serial::_getc()
+                0x0000000008000c24        0x4 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c24                mbed::Serial::_getc()
  .text._ZThn176_N4mbed6Serial5_getcEv
-                0x0000000008000c2c        0x8 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c2c                non-virtual thunk to mbed::Serial::_getc()
+                0x0000000008000c28        0x8 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c28                non-virtual thunk to mbed::Serial::_getc()
  .text._ZN4mbed6Serial5_putcEi
-                0x0000000008000c34        0x4 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c34                mbed::Serial::_putc(int)
+                0x0000000008000c30        0x4 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c30                mbed::Serial::_putc(int)
  .text._ZThn176_N4mbed6Serial5_putcEi
-                0x0000000008000c38        0x8 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c38                non-virtual thunk to mbed::Serial::_putc(int)
+                0x0000000008000c34        0x8 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c34                non-virtual thunk to mbed::Serial::_putc(int)
  .text._ZN4mbed6Serial4lockEv
-                0x0000000008000c40        0x6 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c40                mbed::Serial::lock()
+                0x0000000008000c3c        0x6 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c3c                mbed::Serial::lock()
  .text._ZThn176_N4mbed6Serial4lockEv
-                0x0000000008000c46        0x8 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c46                non-virtual thunk to mbed::Serial::lock()
+                0x0000000008000c42        0x8 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c42                non-virtual thunk to mbed::Serial::lock()
  .text._ZN4mbed6Serial6unlockEv
-                0x0000000008000c4e        0x6 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c4e                mbed::Serial::unlock()
+                0x0000000008000c4a        0x6 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c4a                mbed::Serial::unlock()
  .text._ZThn176_N4mbed6Serial6unlockEv
-                0x0000000008000c54        0x8 BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c54                non-virtual thunk to mbed::Serial::unlock()
+                0x0000000008000c50        0x8 BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c50                non-virtual thunk to mbed::Serial::unlock()
  .text._ZN4mbed6SerialC2E7PinNameS1_PKci
-                0x0000000008000c5c       0x3c BUILD/mbed-os/drivers/Serial.o
-                0x0000000008000c5c                mbed::Serial::Serial(PinName, PinName, char const*, int)
-                0x0000000008000c5c                mbed::Serial::Serial(PinName, PinName, char const*, int)
+                0x0000000008000c58       0x3c BUILD/mbed-os/drivers/Serial.o
+                0x0000000008000c58                mbed::Serial::Serial(PinName, PinName, char const*, int)
+                0x0000000008000c58                mbed::Serial::Serial(PinName, PinName, char const*, int)
  .text._ZN4mbed10SerialBase4lockEv
-                0x0000000008000c98        0x2 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000c98                mbed::SerialBase::unlock()
-                0x0000000008000c98                mbed::SerialBase::lock()
+                0x0000000008000c94        0x2 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000c94                mbed::SerialBase::unlock()
+                0x0000000008000c94                mbed::SerialBase::lock()
  .text._ZN6CThunkIN4mbed10SerialBaseEE10trampolineEP10CThunkBase
-                0x0000000008000c9a       0x28 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000c9a                CThunk<mbed::SerialBase>::trampoline(CThunkBase*)
- *fill*         0x0000000008000cc2        0x2 
+                0x0000000008000c96       0x28 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000c96                CThunk<mbed::SerialBase>::trampoline(CThunkBase*)
+ *fill*         0x0000000008000cbe        0x2 
  .text._ZN4mbed10SerialBase12_irq_handlerEm9SerialIrq
-                0x0000000008000cc4       0x38 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000cc4                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
+                0x0000000008000cc0       0x38 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000cc0                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
  .text._ZN4mbed10SerialBase4baudEi
-                0x0000000008000cfc       0x28 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000cfc                mbed::SerialBase::baud(int)
+                0x0000000008000cf8       0x28 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000cf8                mbed::SerialBase::baud(int)
  .text._ZN4mbed10SerialBase10_base_getcEv
-                0x0000000008000d24        0x6 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000d24                mbed::SerialBase::_base_getc()
+                0x0000000008000d20        0x6 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000d20                mbed::SerialBase::_base_getc()
  .text._ZN4mbed10SerialBase10_base_putcEi
-                0x0000000008000d2a        0xe BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000d2a                mbed::SerialBase::_base_putc(int)
+                0x0000000008000d26        0xe BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000d26                mbed::SerialBase::_base_putc(int)
  .text._ZN4mbed10SerialBaseC2E7PinNameS1_i
-                0x0000000008000d38       0xcc BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000d38                mbed::SerialBase::SerialBase(PinName, PinName, int)
-                0x0000000008000d38                mbed::SerialBase::SerialBase(PinName, PinName, int)
+                0x0000000008000d34       0xcc BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000d34                mbed::SerialBase::SerialBase(PinName, PinName, int)
+                0x0000000008000d34                mbed::SerialBase::SerialBase(PinName, PinName, int)
  .text._ZN4mbed10SerialBase6attachENS_8CallbackIFvvEEENS0_7IrqTypeE
-                0x0000000008000e04       0x72 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000e04                mbed::SerialBase::attach(mbed::Callback<void ()>, mbed::SerialBase::IrqType)
- *fill*         0x0000000008000e76        0x2 
+                0x0000000008000e00       0x72 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000e00                mbed::SerialBase::attach(mbed::Callback<void ()>, mbed::SerialBase::IrqType)
+ *fill*         0x0000000008000e72        0x2 
  .text._ZN4mbed10SerialBaseD2Ev
-                0x0000000008000e78       0x74 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000e78                mbed::SerialBase::~SerialBase()
-                0x0000000008000e78                mbed::SerialBase::~SerialBase()
+                0x0000000008000e74       0x74 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000e74                mbed::SerialBase::~SerialBase()
+                0x0000000008000e74                mbed::SerialBase::~SerialBase()
  .text._ZN4mbed10SerialBaseD0Ev
-                0x0000000008000eec       0x12 BUILD/mbed-os/drivers/SerialBase.o
-                0x0000000008000eec                mbed::SerialBase::~SerialBase()
+                0x0000000008000ee8       0x12 BUILD/mbed-os/drivers/SerialBase.o
+                0x0000000008000ee8                mbed::SerialBase::~SerialBase()
  .text._ZN4mbed6Ticker7handlerEv
-                0x0000000008000efe       0x2e BUILD/mbed-os/drivers/Ticker.o
-                0x0000000008000efe                mbed::Ticker::handler()
+                0x0000000008000efa       0x2e BUILD/mbed-os/drivers/Ticker.o
+                0x0000000008000efa                mbed::Ticker::handler()
  .text._ZN4mbed6Ticker6detachEv
-                0x0000000008000f2c       0x52 BUILD/mbed-os/drivers/Ticker.o
-                0x0000000008000f2c                mbed::Ticker::detach()
- *fill*         0x0000000008000f7e        0x2 
+                0x0000000008000f28       0x52 BUILD/mbed-os/drivers/Ticker.o
+                0x0000000008000f28                mbed::Ticker::detach()
+ *fill*         0x0000000008000f7a        0x2 
  .text._ZN4mbed7TimeoutD2Ev
-                0x0000000008000f80       0x14 BUILD/mbed-os/drivers/Timeout.o
-                0x0000000008000f80                mbed::Timeout::~Timeout()
-                0x0000000008000f80                mbed::Timeout::~Timeout()
+                0x0000000008000f7c       0x14 BUILD/mbed-os/drivers/Timeout.o
+                0x0000000008000f7c                mbed::Timeout::~Timeout()
+                0x0000000008000f7c                mbed::Timeout::~Timeout()
  .text._ZN4mbed7TimeoutD0Ev
-                0x0000000008000f94       0x12 BUILD/mbed-os/drivers/Timeout.o
-                0x0000000008000f94                mbed::Timeout::~Timeout()
- *fill*         0x0000000008000fa6        0x2 
+                0x0000000008000f90       0x12 BUILD/mbed-os/drivers/Timeout.o
+                0x0000000008000f90                mbed::Timeout::~Timeout()
+ *fill*         0x0000000008000fa2        0x2 
  .text._ZN4mbed7Timeout7handlerEv
-                0x0000000008000fa8       0x44 BUILD/mbed-os/drivers/Timeout.o
-                0x0000000008000fa8                mbed::Timeout::handler()
+                0x0000000008000fa4       0x44 BUILD/mbed-os/drivers/Timeout.o
+                0x0000000008000fa4                mbed::Timeout::handler()
  .text._ZN4mbed5TimerD2Ev
-                0x0000000008000fec       0x20 BUILD/mbed-os/drivers/Timer.o
-                0x0000000008000fec                mbed::Timer::~Timer()
-                0x0000000008000fec                mbed::Timer::~Timer()
+                0x0000000008000fe8       0x20 BUILD/mbed-os/drivers/Timer.o
+                0x0000000008000fe8                mbed::Timer::~Timer()
+                0x0000000008000fe8                mbed::Timer::~Timer()
  .text._ZN4mbed5Timer5resetEv
-                0x000000000800100c       0x22 BUILD/mbed-os/drivers/Timer.o
-                0x000000000800100c                mbed::Timer::reset()
+                0x0000000008001008       0x22 BUILD/mbed-os/drivers/Timer.o
+                0x0000000008001008                mbed::Timer::reset()
  .text._ZN4mbed5TimerC2Ev
-                0x000000000800102e       0x28 BUILD/mbed-os/drivers/Timer.o
-                0x000000000800102e                mbed::Timer::Timer()
-                0x000000000800102e                mbed::Timer::Timer()
+                0x000000000800102a       0x28 BUILD/mbed-os/drivers/Timer.o
+                0x000000000800102a                mbed::Timer::Timer()
+                0x000000000800102a                mbed::Timer::Timer()
  .text._ZN4mbed10TimerEvent3irqEm
-                0x0000000008001056        0x6 BUILD/mbed-os/drivers/TimerEvent.o
-                0x0000000008001056                mbed::TimerEvent::irq(unsigned long)
+                0x0000000008001052        0x6 BUILD/mbed-os/drivers/TimerEvent.o
+                0x0000000008001052                mbed::TimerEvent::irq(unsigned long)
  .text._ZN4mbed10TimerEventC2Ev
-                0x000000000800105c       0x30 BUILD/mbed-os/drivers/TimerEvent.o
-                0x000000000800105c                mbed::TimerEvent::TimerEvent()
-                0x000000000800105c                mbed::TimerEvent::TimerEvent()
+                0x0000000008001058       0x30 BUILD/mbed-os/drivers/TimerEvent.o
+                0x0000000008001058                mbed::TimerEvent::TimerEvent()
+                0x0000000008001058                mbed::TimerEvent::TimerEvent()
  .text._ZN4mbed10TimerEvent15insert_absoluteEy
-                0x000000000800108c       0x14 BUILD/mbed-os/drivers/TimerEvent.o
-                0x000000000800108c                mbed::TimerEvent::insert_absolute(unsigned long long)
+                0x0000000008001088       0x14 BUILD/mbed-os/drivers/TimerEvent.o
+                0x0000000008001088                mbed::TimerEvent::insert_absolute(unsigned long long)
  .text._ZN4mbed10TimerEvent6removeEv
-                0x00000000080010a0        0xa BUILD/mbed-os/drivers/TimerEvent.o
-                0x00000000080010a0                mbed::TimerEvent::remove()
- *fill*         0x00000000080010aa        0x2 
+                0x000000000800109c        0xa BUILD/mbed-os/drivers/TimerEvent.o
+                0x000000000800109c                mbed::TimerEvent::remove()
+ *fill*         0x00000000080010a6        0x2 
  .text._ZN4mbed10TimerEventD2Ev
-                0x00000000080010ac       0x14 BUILD/mbed-os/drivers/TimerEvent.o
-                0x00000000080010ac                mbed::TimerEvent::~TimerEvent()
-                0x00000000080010ac                mbed::TimerEvent::~TimerEvent()
+                0x00000000080010a8       0x14 BUILD/mbed-os/drivers/TimerEvent.o
+                0x00000000080010a8                mbed::TimerEvent::~TimerEvent()
+                0x00000000080010a8                mbed::TimerEvent::~TimerEvent()
  .text._ZN4mbed10FileHandle4tellEv
-                0x00000000080010c0        0xa BUILD/mbed-os/drivers/UARTSerial.o
-                0x00000000080010c0                mbed::FileHandle::tell()
+                0x00000000080010bc        0xa BUILD/mbed-os/drivers/UARTSerial.o
+                0x00000000080010bc                mbed::FileHandle::tell()
  .text._ZN4mbed10FileHandle6rewindEv
-                0x00000000080010ca        0xa BUILD/mbed-os/drivers/UARTSerial.o
-                0x00000000080010ca                mbed::FileHandle::rewind()
- .text.__tcf_0  0x00000000080010d4       0x24 BUILD/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/arm_hal_fhss_timer.o
+                0x00000000080010c6        0xa BUILD/mbed-os/drivers/UARTSerial.o
+                0x00000000080010c6                mbed::FileHandle::rewind()
+ .text.__tcf_0  0x00000000080010d0       0x24 BUILD/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/arm_hal_fhss_timer.o
  .text.startup._GLOBAL__sub_I_fhss_timeout
-                0x00000000080010f8       0x88 BUILD/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/arm_hal_fhss_timer.o
+                0x00000000080010f4       0x88 BUILD/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-rtos/arm_hal_fhss_timer.o
  .text.hal_critical_section_enter
-                0x0000000008001180       0x24 BUILD/mbed-os/hal/mbed_critical_section_api.o
-                0x0000000008001180                hal_critical_section_enter
+                0x000000000800117c       0x24 BUILD/mbed-os/hal/mbed_critical_section_api.o
+                0x000000000800117c                hal_critical_section_enter
  .text.hal_critical_section_exit
-                0x00000000080011a4       0x34 BUILD/mbed-os/hal/mbed_critical_section_api.o
-                0x00000000080011a4                hal_critical_section_exit
+                0x00000000080011a0       0x34 BUILD/mbed-os/hal/mbed_critical_section_api.o
+                0x00000000080011a0                hal_critical_section_exit
  .text._gpio_init_out.part.2
-                0x00000000080011d8       0x28 BUILD/mbed-os/hal/mbed_gpio.o
+                0x00000000080011d4       0x28 BUILD/mbed-os/hal/mbed_gpio.o
  .text.gpio_init_out_ex
-                0x0000000008001200       0x20 BUILD/mbed-os/hal/mbed_gpio.o
-                0x0000000008001200                gpio_init_out_ex
+                0x00000000080011fc       0x20 BUILD/mbed-os/hal/mbed_gpio.o
+                0x00000000080011fc                gpio_init_out_ex
  .text.gpio_init_out
-                0x0000000008001220        0x6 BUILD/mbed-os/hal/mbed_gpio.o
-                0x0000000008001220                gpio_init_out
- *fill*         0x0000000008001226        0x2 
+                0x000000000800121c        0x6 BUILD/mbed-os/hal/mbed_gpio.o
+                0x000000000800121c                gpio_init_out
+ *fill*         0x0000000008001222        0x2 
  .text.pinmap_pinout
-                0x0000000008001228       0x48 BUILD/mbed-os/hal/mbed_pinmap_common.o
-                0x0000000008001228                pinmap_pinout
+                0x0000000008001224       0x48 BUILD/mbed-os/hal/mbed_pinmap_common.o
+                0x0000000008001224                pinmap_pinout
  .text.pinmap_merge
-                0x0000000008001270       0x30 BUILD/mbed-os/hal/mbed_pinmap_common.o
-                0x0000000008001270                pinmap_merge
+                0x000000000800126c       0x30 BUILD/mbed-os/hal/mbed_pinmap_common.o
+                0x000000000800126c                pinmap_merge
  .text.pinmap_find_peripheral
-                0x00000000080012a0       0x18 BUILD/mbed-os/hal/mbed_pinmap_common.o
-                0x00000000080012a0                pinmap_find_peripheral
+                0x000000000800129c       0x18 BUILD/mbed-os/hal/mbed_pinmap_common.o
+                0x000000000800129c                pinmap_find_peripheral
  .text.pinmap_peripheral
-                0x00000000080012b8       0x2c BUILD/mbed-os/hal/mbed_pinmap_common.o
-                0x00000000080012b8                pinmap_peripheral
+                0x00000000080012b4       0x2c BUILD/mbed-os/hal/mbed_pinmap_common.o
+                0x00000000080012b4                pinmap_peripheral
  .text.sleep_manager_lock_deep_sleep_internal
-                0x00000000080012e4       0x44 BUILD/mbed-os/hal/mbed_sleep_manager.o
-                0x00000000080012e4                sleep_manager_lock_deep_sleep_internal
+                0x00000000080012e0       0x44 BUILD/mbed-os/hal/mbed_sleep_manager.o
+                0x00000000080012e0                sleep_manager_lock_deep_sleep_internal
  .text.sleep_manager_unlock_deep_sleep_internal
-                0x0000000008001328       0x3c BUILD/mbed-os/hal/mbed_sleep_manager.o
-                0x0000000008001328                sleep_manager_unlock_deep_sleep_internal
+                0x0000000008001324       0x3c BUILD/mbed-os/hal/mbed_sleep_manager.o
+                0x0000000008001324                sleep_manager_unlock_deep_sleep_internal
  .text.sleep_manager_sleep_auto
-                0x0000000008001364       0x24 BUILD/mbed-os/hal/mbed_sleep_manager.o
-                0x0000000008001364                sleep_manager_sleep_auto
+                0x0000000008001360       0x24 BUILD/mbed-os/hal/mbed_sleep_manager.o
+                0x0000000008001360                sleep_manager_sleep_auto
  .text.update_present_time
-                0x0000000008001388      0x114 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x0000000008001384      0x114 BUILD/mbed-os/hal/mbed_ticker_api.o
  .text._ticker_match_interval_passed
-                0x000000000800149c       0x28 BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x000000000800149c                _ticker_match_interval_passed
+                0x0000000008001498       0x28 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x0000000008001498                _ticker_match_interval_passed
  .text.schedule_interrupt
-                0x00000000080014c4      0x118 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080014c0      0x118 BUILD/mbed-os/hal/mbed_ticker_api.o
  .text.initialize
-                0x00000000080015dc       0xec BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080015d8       0xec BUILD/mbed-os/hal/mbed_ticker_api.o
  .text.ticker_set_handler
-                0x00000000080016c8       0x1a BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x00000000080016c8                ticker_set_handler
+                0x00000000080016c4       0x1a BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080016c4                ticker_set_handler
  .text.ticker_irq_handler
-                0x00000000080016e2       0x64 BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x00000000080016e2                ticker_irq_handler
+                0x00000000080016de       0x64 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080016de                ticker_irq_handler
  .text.ticker_insert_event_us
-                0x0000000008001746       0x52 BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x0000000008001746                ticker_insert_event_us
+                0x0000000008001742       0x52 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x0000000008001742                ticker_insert_event_us
  .text.ticker_remove_event
-                0x0000000008001798       0x36 BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x0000000008001798                ticker_remove_event
+                0x0000000008001794       0x36 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x0000000008001794                ticker_remove_event
  .text.ticker_read_us
-                0x00000000080017ce       0x1e BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x00000000080017ce                ticker_read_us
+                0x00000000080017ca       0x1e BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080017ca                ticker_read_us
  .text.ticker_read
-                0x00000000080017ec        0x8 BUILD/mbed-os/hal/mbed_ticker_api.o
-                0x00000000080017ec                ticker_read
+                0x00000000080017e8        0x8 BUILD/mbed-os/hal/mbed_ticker_api.o
+                0x00000000080017e8                ticker_read
  .text.get_us_ticker_data
-                0x00000000080017f4        0x8 BUILD/mbed-os/hal/mbed_us_ticker_api.o
-                0x00000000080017f4                get_us_ticker_data
+                0x00000000080017f0        0x8 BUILD/mbed-os/hal/mbed_us_ticker_api.o
+                0x00000000080017f0                get_us_ticker_data
  .text.us_ticker_irq_handler
-                0x00000000080017fc       0x14 BUILD/mbed-os/hal/mbed_us_ticker_api.o
-                0x00000000080017fc                us_ticker_irq_handler
+                0x00000000080017f8       0x14 BUILD/mbed-os/hal/mbed_us_ticker_api.o
+                0x00000000080017f8                us_ticker_irq_handler
  .text.mbed_mpu_init
-                0x0000000008001810       0x88 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
-                0x0000000008001810                mbed_mpu_init
+                0x000000000800180c       0x88 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
+                0x000000000800180c                mbed_mpu_init
  .text.mbed_mpu_enable_rom_wn
-                0x0000000008001898       0x24 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
-                0x0000000008001898                mbed_mpu_enable_rom_wn
+                0x0000000008001894       0x24 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
+                0x0000000008001894                mbed_mpu_enable_rom_wn
  .text.mbed_mpu_enable_ram_xn
-                0x00000000080018bc       0x40 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
-                0x00000000080018bc                mbed_mpu_enable_ram_xn
+                0x00000000080018b8       0x40 BUILD/mbed-os/hal/mpu/mbed_mpu_v7m.o
+                0x00000000080018b8                mbed_mpu_enable_ram_xn
  .text._ZN10CThunkBase11cthunk_freeEPFvvE
-                0x00000000080018fc       0x10 BUILD/mbed-os/platform/CThunkBase.o
-                0x00000000080018fc                CThunkBase::cthunk_free(void (*)())
+                0x00000000080018f8       0x10 BUILD/mbed-os/platform/CThunkBase.o
+                0x00000000080018f8                CThunkBase::cthunk_free(void (*)())
  .text._ZN4mbed8FileBase11getPathTypeEv
-                0x000000000800190c        0x4 BUILD/mbed-os/platform/FileBase.o
-                0x000000000800190c                mbed::FileBase::getPathType()
+                0x0000000008001908        0x4 BUILD/mbed-os/platform/FileBase.o
+                0x0000000008001908                mbed::FileBase::getPathType()
  .text._ZN4mbed8FileBaseC2EPKcNS_8PathTypeE
-                0x0000000008001910       0x44 BUILD/mbed-os/platform/FileBase.o
-                0x0000000008001910                mbed::FileBase::FileBase(char const*, mbed::PathType)
-                0x0000000008001910                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x000000000800190c       0x44 BUILD/mbed-os/platform/FileBase.o
+                0x000000000800190c                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x000000000800190c                mbed::FileBase::FileBase(char const*, mbed::PathType)
  .text._ZN4mbed8FileBaseD2Ev
-                0x0000000008001954       0x64 BUILD/mbed-os/platform/FileBase.o
-                0x0000000008001954                mbed::FileBase::~FileBase()
-                0x0000000008001954                mbed::FileBase::~FileBase()
+                0x0000000008001950       0x64 BUILD/mbed-os/platform/FileBase.o
+                0x0000000008001950                mbed::FileBase::~FileBase()
+                0x0000000008001950                mbed::FileBase::~FileBase()
  .text._ZN4mbed8FileBaseD0Ev
-                0x00000000080019b8       0x12 BUILD/mbed-os/platform/FileBase.o
-                0x00000000080019b8                mbed::FileBase::~FileBase()
- *fill*         0x00000000080019ca        0x2 
+                0x00000000080019b4       0x12 BUILD/mbed-os/platform/FileBase.o
+                0x00000000080019b4                mbed::FileBase::~FileBase()
+ *fill*         0x00000000080019c6        0x2 
  .text._ZN4mbed8FileBase6lookupEPKcj
-                0x00000000080019cc       0x74 BUILD/mbed-os/platform/FileBase.o
-                0x00000000080019cc                mbed::FileBase::lookup(char const*, unsigned int)
+                0x00000000080019c8       0x74 BUILD/mbed-os/platform/FileBase.o
+                0x00000000080019c8                mbed::FileBase::lookup(char const*, unsigned int)
  .text._ZN4mbed10FileHandle4syncEv
-                0x0000000008001a40        0x4 BUILD/mbed-os/platform/FileHandle.o
-                0x0000000008001a40                mbed::FileHandle::sync()
+                0x0000000008001a3c        0x4 BUILD/mbed-os/platform/FileHandle.o
+                0x0000000008001a3c                mbed::FileHandle::sync()
  .text._ZN4mbed10FileHandle6isattyEv
-                0x0000000008001a44        0x4 BUILD/mbed-os/platform/FileHandle.o
-                0x0000000008001a44                mbed::FileHandle::isatty()
+                0x0000000008001a40        0x4 BUILD/mbed-os/platform/FileHandle.o
+                0x0000000008001a40                mbed::FileHandle::isatty()
  .text._ZN4mbed10FileHandle4sizeEv
-                0x0000000008001a48       0x32 BUILD/mbed-os/platform/FileHandle.o
-                0x0000000008001a48                mbed::FileHandle::size()
- *fill*         0x0000000008001a7a        0x2 
+                0x0000000008001a44       0x32 BUILD/mbed-os/platform/FileHandle.o
+                0x0000000008001a44                mbed::FileHandle::size()
+ *fill*         0x0000000008001a76        0x2 
  .text._ZN4mbed8FilePathC2EPKc
-                0x0000000008001a7c       0x54 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001a7c                mbed::FilePath::FilePath(char const*)
-                0x0000000008001a7c                mbed::FilePath::FilePath(char const*)
+                0x0000000008001a78       0x54 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001a78                mbed::FilePath::FilePath(char const*)
+                0x0000000008001a78                mbed::FilePath::FilePath(char const*)
  .text._ZN4mbed8FilePath8fileNameEv
-                0x0000000008001ad0        0x4 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001ad0                mbed::FilePath::fileName()
+                0x0000000008001acc        0x4 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001acc                mbed::FilePath::fileName()
  .text._ZN4mbed8FilePath12isFileSystemEv
-                0x0000000008001ad4       0x12 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001ad4                mbed::FilePath::isFileSystem()
+                0x0000000008001ad0       0x12 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001ad0                mbed::FilePath::isFileSystem()
  .text._ZN4mbed8FilePath10fileSystemEv
-                0x0000000008001ae6       0x12 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001ae6                mbed::FilePath::fileSystem()
+                0x0000000008001ae2       0x12 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001ae2                mbed::FilePath::fileSystem()
  .text._ZN4mbed8FilePath6isFileEv
-                0x0000000008001af8       0x12 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001af8                mbed::FilePath::isFile()
+                0x0000000008001af4       0x12 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001af4                mbed::FilePath::isFile()
  .text._ZN4mbed8FilePath4fileEv
-                0x0000000008001b0a       0x12 BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001b0a                mbed::FilePath::file()
+                0x0000000008001b06       0x12 BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001b06                mbed::FilePath::file()
  .text._ZN4mbed8FilePath6existsEv
-                0x0000000008001b1c        0xa BUILD/mbed-os/platform/FilePath.o
-                0x0000000008001b1c                mbed::FilePath::exists()
+                0x0000000008001b18        0xa BUILD/mbed-os/platform/FilePath.o
+                0x0000000008001b18                mbed::FilePath::exists()
  .text._ZN4mbed6Stream4lockEv
-                0x0000000008001b26        0x2 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b26                mbed::Stream::lock()
+                0x0000000008001b22        0x2 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b22                mbed::Stream::lock()
  .text._ZN4mbed6Stream6unlockEv
-                0x0000000008001b28        0x2 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b28                mbed::Stream::unlock()
+                0x0000000008001b24        0x2 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b24                mbed::Stream::unlock()
  .text._ZN4mbed6Stream5closeEv
-                0x0000000008001b2a        0x4 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b2a                mbed::Stream::isatty()
-                0x0000000008001b2a                mbed::Stream::sync()
-                0x0000000008001b2a                mbed::Stream::close()
+                0x0000000008001b26        0x4 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b26                mbed::Stream::isatty()
+                0x0000000008001b26                mbed::Stream::sync()
+                0x0000000008001b26                mbed::Stream::close()
  .text._ZN4mbed6Stream5writeEPKvj
-                0x0000000008001b2e       0x30 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b2e                mbed::Stream::write(void const*, unsigned int)
+                0x0000000008001b2a       0x30 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b2a                mbed::Stream::write(void const*, unsigned int)
  .text._ZN4mbed6Stream4readEPvj
-                0x0000000008001b5e       0x32 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b5e                mbed::Stream::read(void*, unsigned int)
+                0x0000000008001b5a       0x32 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b5a                mbed::Stream::read(void*, unsigned int)
  .text._ZN4mbed6Stream4seekEli
-                0x0000000008001b90        0x4 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b90                mbed::Stream::seek(long, int)
+                0x0000000008001b8c        0x4 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b8c                mbed::Stream::seek(long, int)
  .text._ZN4mbed6Stream4tellEv
-                0x0000000008001b94        0x4 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b94                mbed::Stream::tell()
-                0x0000000008001b94                mbed::Stream::size()
+                0x0000000008001b90        0x4 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b90                mbed::Stream::tell()
+                0x0000000008001b90                mbed::Stream::size()
  .text._ZN4mbed6Stream6rewindEv
-                0x0000000008001b98        0x2 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b98                mbed::Stream::rewind()
- *fill*         0x0000000008001b9a        0x2 
+                0x0000000008001b94        0x2 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b94                mbed::Stream::rewind()
+ *fill*         0x0000000008001b96        0x2 
  .text._ZN4mbed6StreamC2EPKc
-                0x0000000008001b9c       0x54 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001b9c                mbed::Stream::Stream(char const*)
-                0x0000000008001b9c                mbed::Stream::Stream(char const*)
+                0x0000000008001b98       0x54 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001b98                mbed::Stream::Stream(char const*)
+                0x0000000008001b98                mbed::Stream::Stream(char const*)
  .text._ZN4mbed6StreamD2Ev
-                0x0000000008001bf0       0x34 BUILD/mbed-os/platform/Stream.o
-                0x0000000008001bf0                mbed::Stream::~Stream()
-                0x0000000008001bf0                mbed::Stream::~Stream()
+                0x0000000008001bec       0x34 BUILD/mbed-os/platform/Stream.o
+                0x0000000008001bec                mbed::Stream::~Stream()
+                0x0000000008001bec                mbed::Stream::~Stream()
  .text.__wrap__malloc_r
-                0x0000000008001c24        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
-                0x0000000008001c24                __wrap__malloc_r
+                0x0000000008001c20        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
+                0x0000000008001c20                __wrap__malloc_r
  .text.__wrap__realloc_r
-                0x0000000008001c28        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
-                0x0000000008001c28                __wrap__realloc_r
+                0x0000000008001c24        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
+                0x0000000008001c24                __wrap__realloc_r
  .text.__wrap__free_r
-                0x0000000008001c2c        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
-                0x0000000008001c2c                __wrap__free_r
+                0x0000000008001c28        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
+                0x0000000008001c28                __wrap__free_r
  .text.__wrap__calloc_r
-                0x0000000008001c30        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
-                0x0000000008001c30                __wrap__calloc_r
+                0x0000000008001c2c        0x4 BUILD/mbed-os/platform/mbed_alloc_wrappers.o
+                0x0000000008001c2c                __wrap__calloc_r
  .text.mbed_assert_internal
-                0x0000000008001c34       0x20 BUILD/mbed-os/platform/mbed_assert.o
-                0x0000000008001c34                mbed_assert_internal
+                0x0000000008001c30       0x20 BUILD/mbed-os/platform/mbed_assert.o
+                0x0000000008001c30                mbed_assert_internal
  .text.mbed_die
-                0x0000000008001c54       0x56 BUILD/mbed-os/platform/mbed_board.o
-                0x0000000008001c54                mbed_die
+                0x0000000008001c50       0x56 BUILD/mbed-os/platform/mbed_board.o
+                0x0000000008001c50                mbed_die
  .text.mbed_error_puts
-                0x0000000008001caa       0x20 BUILD/mbed-os/platform/mbed_board.o
-                0x0000000008001caa                mbed_error_puts
- *fill*         0x0000000008001cca        0x2 
+                0x0000000008001ca6       0x20 BUILD/mbed-os/platform/mbed_board.o
+                0x0000000008001ca6                mbed_error_puts
+ *fill*         0x0000000008001cc6        0x2 
  .text.mbed_error_vprintf
-                0x0000000008001ccc       0x34 BUILD/mbed-os/platform/mbed_board.o
-                0x0000000008001ccc                mbed_error_vprintf
+                0x0000000008001cc8       0x34 BUILD/mbed-os/platform/mbed_board.o
+                0x0000000008001cc8                mbed_error_vprintf
  .text.mbed_error_printf
-                0x0000000008001d00       0x1a BUILD/mbed-os/platform/mbed_board.o
-                0x0000000008001d00                mbed_error_printf
+                0x0000000008001cfc       0x1a BUILD/mbed-os/platform/mbed_board.o
+                0x0000000008001cfc                mbed_error_printf
  .text.core_util_are_interrupts_enabled
-                0x0000000008001d1a        0xc BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d1a                core_util_are_interrupts_enabled
+                0x0000000008001d16        0xc BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d16                core_util_are_interrupts_enabled
  .text.core_util_is_isr_active
-                0x0000000008001d26        0xc BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d26                core_util_is_isr_active
- *fill*         0x0000000008001d32        0x2 
+                0x0000000008001d22        0xc BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d22                core_util_is_isr_active
+ *fill*         0x0000000008001d2e        0x2 
  .text.core_util_critical_section_enter
-                0x0000000008001d34       0x2c BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d34                core_util_critical_section_enter
+                0x0000000008001d30       0x2c BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d30                core_util_critical_section_enter
  .text.core_util_critical_section_exit
-                0x0000000008001d60       0x1c BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d60                core_util_critical_section_exit
+                0x0000000008001d5c       0x1c BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d5c                core_util_critical_section_exit
  .text.core_util_atomic_flag_test_and_set
-                0x0000000008001d7c       0x18 BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d7c                core_util_atomic_flag_test_and_set
+                0x0000000008001d78       0x18 BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d78                core_util_atomic_flag_test_and_set
  .text.core_util_atomic_incr_u16
-                0x0000000008001d94       0x14 BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001d94                core_util_atomic_incr_u16
+                0x0000000008001d90       0x14 BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001d90                core_util_atomic_incr_u16
  .text.core_util_atomic_decr_u16
-                0x0000000008001da8       0x14 BUILD/mbed-os/platform/mbed_critical.o
-                0x0000000008001da8                core_util_atomic_decr_u16
+                0x0000000008001da4       0x14 BUILD/mbed-os/platform/mbed_critical.o
+                0x0000000008001da4                core_util_atomic_decr_u16
  .text.mbed_halt_system
-                0x0000000008001dbc       0x34 BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001db8       0x34 BUILD/mbed-os/platform/mbed_error.o
  .text.handle_error.isra.0
-                0x0000000008001df0       0x88 BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001dec       0x88 BUILD/mbed-os/platform/mbed_error.o
  .text.print_error_report.constprop.1
-                0x0000000008001e78      0x130 BUILD/mbed-os/platform/mbed_error.o
- .text.error    0x0000000008001fa8       0x40 BUILD/mbed-os/platform/mbed_error.o
-                0x0000000008001fa8                error
+                0x0000000008001e74      0x130 BUILD/mbed-os/platform/mbed_error.o
+ .text.error    0x0000000008001fa4       0x40 BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001fa4                error
  .text.mbed_error_initialize
-                0x0000000008001fe8        0x4 BUILD/mbed-os/platform/mbed_error.o
-                0x0000000008001fe8                mbed_error_initialize
+                0x0000000008001fe4        0x4 BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001fe4                mbed_error_initialize
  .text.mbed_warning
-                0x0000000008001fec        0xe BUILD/mbed-os/platform/mbed_error.o
-                0x0000000008001fec                mbed_warning
- *fill*         0x0000000008001ffa        0x2 
+                0x0000000008001fe8        0xe BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001fe8                mbed_warning
+ *fill*         0x0000000008001ff6        0x2 
  .text.mbed_error
-                0x0000000008001ffc       0x30 BUILD/mbed-os/platform/mbed_error.o
-                0x0000000008001ffc                mbed_error
+                0x0000000008001ff8       0x30 BUILD/mbed-os/platform/mbed_error.o
+                0x0000000008001ff8                mbed_error
  .text._ZN12DirectSerial4seekEli
-                0x000000000800202c        0x6 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800202c                DirectSerial::seek(long, int)
+                0x0000000008002028        0x6 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002028                DirectSerial::seek(long, int)
  .text._ZN12DirectSerial4sizeEv
-                0x0000000008002032        0x6 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002032                DirectSerial::size()
+                0x000000000800202e        0x6 BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800202e                DirectSerial::size()
  .text._ZN12DirectSerial6isattyEv
-                0x0000000008002038        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002038                DirectSerial::isatty()
+                0x0000000008002034        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002034                DirectSerial::isatty()
  .text._ZN12DirectSerial5closeEv
-                0x000000000800203c        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800203c                DirectSerial::close()
+                0x0000000008002038        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002038                DirectSerial::close()
  .text._ZN12DirectSerialD2Ev
-                0x0000000008002040        0x2 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002040                DirectSerial::~DirectSerial()
-                0x0000000008002040                DirectSerial::~DirectSerial()
- *fill*         0x0000000008002042        0x2 
+                0x000000000800203c        0x2 BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800203c                DirectSerial::~DirectSerial()
+                0x000000000800203c                DirectSerial::~DirectSerial()
+ *fill*         0x000000000800203e        0x2 
  .text._ZL14singleton_lockv
-                0x0000000008002044       0x14 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002040       0x14 BUILD/mbed-os/platform/mbed_retarget.o
  .text._ZL16singleton_unlockv
-                0x0000000008002058       0x10 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002054       0x10 BUILD/mbed-os/platform/mbed_retarget.o
  .text._ZN12DirectSerial5writeEPKvj
-                0x0000000008002068       0x24 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002068                DirectSerial::write(void const*, unsigned int)
+                0x0000000008002064       0x24 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002064                DirectSerial::write(void const*, unsigned int)
  .text._ZNK12DirectSerial4pollEs
-                0x000000000800208c       0x30 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800208c                DirectSerial::poll(short) const
+                0x0000000008002088       0x30 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002088                DirectSerial::poll(short) const
  .text._ZN12DirectSerialD0Ev
-                0x00000000080020bc        0xc BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080020bc                DirectSerial::~DirectSerial()
+                0x00000000080020b8        0xc BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080020b8                DirectSerial::~DirectSerial()
  .text._ZN12DirectSerial4readEPvj
-                0x00000000080020c8       0x1c BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080020c8                DirectSerial::read(void*, unsigned int)
+                0x00000000080020c4       0x1c BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080020c4                DirectSerial::read(void*, unsigned int)
  .text._ZN12DirectSerialC2E7PinNameS0_i
-                0x00000000080020e4       0x30 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080020e4                DirectSerial::DirectSerial(PinName, PinName, int)
-                0x00000000080020e4                DirectSerial::DirectSerial(PinName, PinName, int)
+                0x00000000080020e0       0x30 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080020e0                DirectSerial::DirectSerial(PinName, PinName, int)
+                0x00000000080020e0                DirectSerial::DirectSerial(PinName, PinName, int)
  .text._ZN4mbed28mbed_target_override_consoleEi
-                0x0000000008002114        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002114                mbed::mbed_target_override_console(int)
+                0x0000000008002110        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002110                mbed::mbed_target_override_console(int)
  .text._ZN4mbed21mbed_override_consoleEi
-                0x0000000008002118        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002118                mbed::mbed_override_console(int)
+                0x0000000008002114        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002114                mbed::mbed_override_console(int)
  .text.__cxa_pure_virtual
-                0x000000000800211c        0x8 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800211c                __cxa_pure_virtual
- .text._sbrk    0x0000000008002124       0x44 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002124                _sbrk
+                0x0000000008002118        0x8 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002118                __cxa_pure_virtual
+ .text._sbrk    0x0000000008002120       0x44 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002120                _sbrk
  .text.__aeabi_atexit
-                0x0000000008002168        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002168                __aeabi_atexit
+                0x0000000008002164        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002164                __aeabi_atexit
  .text.__wrap_atexit
-                0x000000000800216c        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800216c                __wrap_atexit
+                0x0000000008002168        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002168                __wrap_atexit
  .text._ZN4mbed26mbed_set_unbuffered_streamEP7__sFILE
-                0x0000000008002170        0x6 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002170                mbed::mbed_set_unbuffered_stream(__sFILE*)
+                0x000000000800216c        0x6 BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800216c                mbed::mbed_set_unbuffered_stream(__sFILE*)
  .text.__malloc_lock
-                0x0000000008002176        0x8 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002176                __malloc_lock
+                0x0000000008002172        0x8 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002172                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800217e        0x8 BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800217e                __malloc_unlock
- *fill*         0x0000000008002186        0x2 
+                0x000000000800217a        0x8 BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800217a                __malloc_unlock
+ *fill*         0x0000000008002182        0x2 
  .text.__cxa_guard_acquire
-                0x0000000008002188       0x44 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002188                __cxa_guard_acquire
+                0x0000000008002184       0x44 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002184                __cxa_guard_acquire
  .text.__cxa_guard_release
-                0x00000000080021cc       0x34 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080021cc                __cxa_guard_release
+                0x00000000080021c8       0x34 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080021c8                __cxa_guard_release
  .text._ZL7get_fhci
-                0x0000000008002200       0x80 BUILD/mbed-os/platform/mbed_retarget.o
- .text.close    0x0000000008002280       0x3c BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002280                close
- .text._close   0x00000000080022bc        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080022bc                _close
- .text.write    0x00000000080022c0       0x34 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080022c0                write
- .text._write   0x00000000080022f4       0x24 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080022f4                _write
- .text.read     0x0000000008002318       0x34 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002318                read
- .text._read    0x000000000800234c       0x1c BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800234c                _read
- .text.isatty   0x0000000008002368       0x2c BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002368                isatty
- .text.fdopen   0x0000000008002394       0x3a BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002394                fdopen
- .text._isatty  0x00000000080023ce        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080023ce                _isatty
- .text.lseek    0x00000000080023d2       0x34 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080023d2                lseek
- .text._lseek   0x0000000008002406        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002406                _lseek
- .text.fsync    0x000000000800240a       0x2e BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800240a                fsync
- .text._exit    0x0000000008002438       0x30 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002438                _exit
+                0x00000000080021fc       0x80 BUILD/mbed-os/platform/mbed_retarget.o
+ .text.close    0x000000000800227c       0x3c BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800227c                close
+ .text._close   0x00000000080022b8        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080022b8                _close
+ .text.write    0x00000000080022bc       0x34 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080022bc                write
+ .text._write   0x00000000080022f0       0x24 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080022f0                _write
+ .text.read     0x0000000008002314       0x34 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002314                read
+ .text._read    0x0000000008002348       0x1c BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002348                _read
+ .text.isatty   0x0000000008002364       0x2c BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002364                isatty
+ .text.fdopen   0x0000000008002390       0x3a BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002390                fdopen
+ .text._isatty  0x00000000080023ca        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080023ca                _isatty
+ .text.lseek    0x00000000080023ce       0x34 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080023ce                lseek
+ .text._lseek   0x0000000008002402        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002402                _lseek
+ .text.fsync    0x0000000008002406       0x2e BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002406                fsync
+ .text._exit    0x0000000008002434       0x30 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002434                _exit
  .text.__wrap_exit
-                0x0000000008002468        0x6 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002468                __wrap_exit
- .text.fstat    0x000000000800246e       0x3c BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800246e                fstat
- .text._fstat   0x00000000080024aa        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080024aa                _fstat
- .text._ZdlPv   0x00000000080024ae        0x4 BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080024ae                operator delete(void*)
- *fill*         0x00000000080024b2        0x2 
+                0x0000000008002464        0x6 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002464                __wrap_exit
+ .text.fstat    0x000000000800246a       0x3c BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800246a                fstat
+ .text._fstat   0x00000000080024a6        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080024a6                _fstat
+ .text._ZdlPv   0x00000000080024aa        0x4 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080024aa                operator delete(void*)
+ *fill*         0x00000000080024ae        0x2 
  .text._ZN4mbed17remove_filehandleEPNS_10FileHandleE
-                0x00000000080024b4       0x3c BUILD/mbed-os/platform/mbed_retarget.o
-                0x00000000080024b4                mbed::remove_filehandle(mbed::FileHandle*)
+                0x00000000080024b0       0x3c BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080024b0                mbed::remove_filehandle(mbed::FileHandle*)
  .text._ZL18reserve_filehandlev
-                0x00000000080024f0       0x54 BUILD/mbed-os/platform/mbed_retarget.o
+                0x00000000080024ec       0x54 BUILD/mbed-os/platform/mbed_retarget.o
  .text._ZN4mbed10bind_to_fdEPNS_10FileHandleE
-                0x0000000008002544       0x18 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002544                mbed::bind_to_fd(mbed::FileHandle*)
+                0x0000000008002540       0x18 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002540                mbed::bind_to_fd(mbed::FileHandle*)
  .text._ZN4mbed6fdopenEPNS_10FileHandleEPKc
-                0x000000000800255c       0x3c BUILD/mbed-os/platform/mbed_retarget.o
-                0x000000000800255c                mbed::fdopen(mbed::FileHandle*, char const*)
- .text.open     0x0000000008002598       0x98 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002598                open
- .text._open    0x0000000008002630       0x74 BUILD/mbed-os/platform/mbed_retarget.o
-                0x0000000008002630                _open
- .text.wait_us  0x00000000080026a4       0x40 BUILD/mbed-os/platform/mbed_wait_api_rtos.o
-                0x00000000080026a4                wait_us
- .text.wait_ms  0x00000000080026e4       0x2a BUILD/mbed-os/platform/mbed_wait_api_rtos.o
-                0x00000000080026e4                wait_ms
- *fill*         0x000000000800270e        0x2 
- .text.wait     0x0000000008002710       0x94 BUILD/mbed-os/platform/mbed_wait_api_rtos.o
-                0x0000000008002710                wait
+                0x0000000008002558       0x3c BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002558                mbed::fdopen(mbed::FileHandle*, char const*)
+ .text.open     0x0000000008002594       0x98 BUILD/mbed-os/platform/mbed_retarget.o
+                0x0000000008002594                open
+ .text._open    0x000000000800262c       0x74 BUILD/mbed-os/platform/mbed_retarget.o
+                0x000000000800262c                _open
+ .text.wait_us  0x00000000080026a0       0x40 BUILD/mbed-os/platform/mbed_wait_api_rtos.o
+                0x00000000080026a0                wait_us
+ .text.wait_ms  0x00000000080026e0       0x2a BUILD/mbed-os/platform/mbed_wait_api_rtos.o
+                0x00000000080026e0                wait_ms
+ *fill*         0x000000000800270a        0x2 
+ .text.wait     0x000000000800270c       0x94 BUILD/mbed-os/platform/mbed_wait_api_rtos.o
+                0x000000000800270c                wait
  .text._ZN4rtos5Mutex11constructorEPKc
-                0x00000000080027a4       0x4c BUILD/mbed-os/rtos/Mutex.o
-                0x00000000080027a4                rtos::Mutex::constructor(char const*)
+                0x00000000080027a0       0x4c BUILD/mbed-os/rtos/Mutex.o
+                0x00000000080027a0                rtos::Mutex::constructor(char const*)
  .text._ZN4rtos5MutexC2Ev
-                0x00000000080027f0       0x10 BUILD/mbed-os/rtos/Mutex.o
-                0x00000000080027f0                rtos::Mutex::Mutex()
-                0x00000000080027f0                rtos::Mutex::Mutex()
+                0x00000000080027ec       0x10 BUILD/mbed-os/rtos/Mutex.o
+                0x00000000080027ec                rtos::Mutex::Mutex()
+                0x00000000080027ec                rtos::Mutex::Mutex()
  .text._ZN4rtos5Mutex4lockEv
-                0x0000000008002800       0x30 BUILD/mbed-os/rtos/Mutex.o
-                0x0000000008002800                rtos::Mutex::lock()
+                0x00000000080027fc       0x30 BUILD/mbed-os/rtos/Mutex.o
+                0x00000000080027fc                rtos::Mutex::lock()
  .text._ZN4rtos5Mutex6unlockEv
-                0x0000000008002830       0x2c BUILD/mbed-os/rtos/Mutex.o
-                0x0000000008002830                rtos::Mutex::unlock()
+                0x000000000800282c       0x2c BUILD/mbed-os/rtos/Mutex.o
+                0x000000000800282c                rtos::Mutex::unlock()
  .text._ZN4rtos5MutexD2Ev
-                0x000000000800285c        0xe BUILD/mbed-os/rtos/Mutex.o
-                0x000000000800285c                rtos::Mutex::~Mutex()
-                0x000000000800285c                rtos::Mutex::~Mutex()
- *fill*         0x000000000800286a        0x2 
+                0x0000000008002858        0xe BUILD/mbed-os/rtos/Mutex.o
+                0x0000000008002858                rtos::Mutex::~Mutex()
+                0x0000000008002858                rtos::Mutex::~Mutex()
+ *fill*         0x0000000008002866        0x2 
  .text.software_init_hook
-                0x000000000800286c       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
-                0x000000000800286c                software_init_hook
+                0x0000000008002868       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
+                0x0000000008002868                software_init_hook
  .text.mbed_toolchain_init
-                0x00000000080028b4       0x5c BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
-                0x00000000080028b4                mbed_toolchain_init
+                0x00000000080028b0       0x5c BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
+                0x00000000080028b0                mbed_toolchain_init
  .text.__wrap_main
-                0x0000000008002910        0x4 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
-                0x0000000008002910                __wrap_main
+                0x000000000800290c        0x4 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
+                0x000000000800290c                __wrap_main
  .text.__rtos_malloc_lock
-                0x0000000008002914       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
-                0x0000000008002914                __rtos_malloc_lock
+                0x0000000008002910       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
+                0x0000000008002910                __rtos_malloc_lock
  .text.__rtos_malloc_unlock
-                0x0000000008002924        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
-                0x0000000008002924                __rtos_malloc_unlock
+                0x0000000008002920        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.o
+                0x0000000008002920                __rtos_malloc_unlock
  .text.mbed_init
-                0x0000000008002930       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
-                0x0000000008002930                mbed_init
+                0x000000000800292c       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+                0x000000000800292c                mbed_init
  .text.mbed_main
-                0x0000000008002978        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
-                0x0000000008002978                mbed_main
+                0x0000000008002974        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+                0x0000000008002974                mbed_main
  .text.mbed_start
-                0x000000000800297a       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
-                0x000000000800297a                mbed_start
+                0x0000000008002976       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+                0x0000000008002976                mbed_start
  .text.mbed_rtos_init
-                0x0000000008002990        0x4 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
-                0x0000000008002990                mbed_rtos_init
+                0x000000000800298c        0x4 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+                0x000000000800298c                mbed_rtos_init
  .text.mbed_rtos_start
-                0x0000000008002994       0x90 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
-                0x0000000008002994                mbed_rtos_start
+                0x0000000008002990       0x90 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+                0x0000000008002990                mbed_rtos_start
  .text.osRtxIdleThread
-                0x0000000008002a24        0x6 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
-                0x0000000008002a24                osRtxIdleThread
- *fill*         0x0000000008002a2a        0x2 
+                0x0000000008002a20        0x6 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+                0x0000000008002a20                osRtxIdleThread
+ *fill*         0x0000000008002a26        0x2 
  .text.osRtxErrorNotify
-                0x0000000008002a2c       0x90 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
-                0x0000000008002a2c                osRtxErrorNotify
+                0x0000000008002a28       0x90 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+                0x0000000008002a28                osRtxErrorNotify
  .text.EvrRtxThreadExit
-                0x0000000008002abc       0x18 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
-                0x0000000008002abc                EvrRtxThreadExit
+                0x0000000008002ab8       0x18 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+                0x0000000008002ab8                EvrRtxThreadExit
  .text.default_idle_hook
-                0x0000000008002ad4       0x1a BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
- *fill*         0x0000000008002aee        0x2 
+                0x0000000008002ad0       0x1a BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+ *fill*         0x0000000008002aea        0x2 
  .text.rtos_idle_loop
-                0x0000000008002af0       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
-                0x0000000008002af0                rtos_idle_loop
- .text          0x0000000008002b00       0xc4 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/TOOLCHAIN_GCC/TARGET_RTOS_M4_M7/irq_cm4f.o
-                0x0000000008002b00                SVC_Handler
-                0x0000000008002b98                PendSV_Handler
-                0x0000000008002ba8                SysTick_Handler
+                0x0000000008002aec       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+                0x0000000008002aec                rtos_idle_loop
+ .text          0x0000000008002afc       0xc4 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/TOOLCHAIN_GCC/TARGET_RTOS_M4_M7/irq_cm4f.o
+                0x0000000008002afc                SVC_Handler
+                0x0000000008002b94                PendSV_Handler
+                0x0000000008002ba4                SysTick_Handler
  .text.svcRtxDelay
-                0x0000000008002bc4       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
- .text.osDelay  0x0000000008002bd4       0x34 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
-                0x0000000008002bd4                osDelay
+                0x0000000008002bc0       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
+ .text.osDelay  0x0000000008002bd0       0x34 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
+                0x0000000008002bd0                osDelay
  .text.EvrRtxKernelError
-                0x0000000008002c08        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
-                0x0000000008002c08                EvrRtxKernelError
+                0x0000000008002c04        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+                0x0000000008002c04                EvrRtxKernelError
  .text.EvrRtxThreadError
-                0x0000000008002c0a        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
-                0x0000000008002c0a                EvrRtxThreadError
+                0x0000000008002c06        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+                0x0000000008002c06                EvrRtxThreadError
  .text.EvrRtxMutexError
-                0x0000000008002c0c        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
-                0x0000000008002c0c                EvrRtxMutexError
+                0x0000000008002c08        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+                0x0000000008002c08                EvrRtxMutexError
  .text.EvrRtxMessageQueueError
-                0x0000000008002c0e        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
-                0x0000000008002c0e                EvrRtxMessageQueueError
+                0x0000000008002c0a        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+                0x0000000008002c0a                EvrRtxMessageQueueError
  .text.IsIrqMasked
-                0x0000000008002c10       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
- *fill*         0x0000000008002c26        0x2 
+                0x0000000008002c0c       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+ *fill*         0x0000000008002c22        0x2 
  .text.svcRtxKernelStart
-                0x0000000008002c28       0xac BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+                0x0000000008002c24       0xac BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
  .text.svcRtxKernelInitialize
-                0x0000000008002cd4      0x164 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+                0x0000000008002cd0      0x164 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
  .text.osKernelInitialize
-                0x0000000008002e38       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
-                0x0000000008002e38                osKernelInitialize
+                0x0000000008002e34       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+                0x0000000008002e34                osKernelInitialize
  .text.osKernelStart
-                0x0000000008002e68       0x2c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
-                0x0000000008002e68                osKernelStart
+                0x0000000008002e64       0x2c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+                0x0000000008002e64                osKernelStart
  .text.osRtxKernelPreInit
-                0x0000000008002e94        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-                0x0000000008002e94                osRtxKernelPreInit
+                0x0000000008002e90        0x2 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+                0x0000000008002e90                osRtxKernelPreInit
  .text.osRtxMemoryInit
-                0x0000000008002e96       0x32 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
-                0x0000000008002e96                osRtxMemoryInit
+                0x0000000008002e92       0x32 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+                0x0000000008002e92                osRtxMemoryInit
  .text.osRtxMemoryAlloc
-                0x0000000008002ec8       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
-                0x0000000008002ec8                osRtxMemoryAlloc
+                0x0000000008002ec4       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+                0x0000000008002ec4                osRtxMemoryAlloc
  .text.osRtxMemoryFree
-                0x0000000008002f30       0x3c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
-                0x0000000008002f30                osRtxMemoryFree
+                0x0000000008002f2c       0x3c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+                0x0000000008002f2c                osRtxMemoryFree
  .text.osRtxMemoryPoolInit
-                0x0000000008002f6c       0x42 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
-                0x0000000008002f6c                osRtxMemoryPoolInit
+                0x0000000008002f68       0x42 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+                0x0000000008002f68                osRtxMemoryPoolInit
  .text.osRtxMemoryPoolAlloc
-                0x0000000008002fae       0x34 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
-                0x0000000008002fae                osRtxMemoryPoolAlloc
+                0x0000000008002faa       0x34 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+                0x0000000008002faa                osRtxMemoryPoolAlloc
  .text.osRtxMemoryPoolFree
-                0x0000000008002fe2       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
-                0x0000000008002fe2                osRtxMemoryPoolFree
+                0x0000000008002fde       0x48 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+                0x0000000008002fde                osRtxMemoryPoolFree
  .text.IsIrqMasked
-                0x000000000800302a       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003026       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.MessageQueuePut
-                0x0000000008003040       0x4a BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x000000000800303c       0x4a BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.MessageQueueRemove
-                0x000000000800308a       0x18 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
- *fill*         0x00000000080030a2        0x2 
+                0x0000000008003086       0x18 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+ *fill*         0x000000000800309e        0x2 
  .text.svcRtxMessageQueueNew
-                0x00000000080030a4      0x120 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x00000000080030a0      0x120 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.osRtxMessageQueuePostProcess
-                0x00000000080031c4       0xc0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x00000000080031c0       0xc0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.svcRtxMessageQueuePut
-                0x0000000008003284       0xbc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003280       0xbc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.MessageQueueGet
-                0x0000000008003340       0x42 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
- *fill*         0x0000000008003382        0x2 
+                0x000000000800333c       0x42 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+ *fill*         0x000000000800337e        0x2 
  .text.svcRtxMessageQueueGet
-                0x0000000008003384       0xe0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003380       0xe0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
  .text.osMessageQueueNew
-                0x0000000008003464       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
-                0x0000000008003464                osMessageQueueNew
+                0x0000000008003460       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003460                osMessageQueueNew
  .text.osMessageQueuePut
-                0x0000000008003494       0x80 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
-                0x0000000008003494                osMessageQueuePut
+                0x0000000008003490       0x80 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003490                osMessageQueuePut
  .text.osMessageQueueGet
-                0x0000000008003514       0x78 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
-                0x0000000008003514                osMessageQueueGet
+                0x0000000008003510       0x78 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+                0x0000000008003510                osMessageQueueGet
  .text.IsIrqMasked
-                0x000000000800358c       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
- *fill*         0x00000000080035a2        0x2 
+                0x0000000008003588       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+ *fill*         0x000000000800359e        0x2 
  .text.svcRtxMutexNew
-                0x00000000080035a4       0x7c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x00000000080035a0       0x7c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
  .text.svcRtxMutexAcquire
-                0x0000000008003620       0xa8 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x000000000800361c       0xa8 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
  .text.svcRtxMutexRelease
-                0x00000000080036c8       0xc0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x00000000080036c4       0xc0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
  .text.svcRtxMutexDelete
-                0x0000000008003788       0xb0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x0000000008003784       0xb0 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
  .text.osRtxMutexOwnerRelease
-                0x0000000008003838       0x40 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
-                0x0000000008003838                osRtxMutexOwnerRelease
+                0x0000000008003834       0x40 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x0000000008003834                osRtxMutexOwnerRelease
  .text.osMutexNew
-                0x0000000008003878       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
-                0x0000000008003878                osMutexNew
+                0x0000000008003874       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x0000000008003874                osMutexNew
  .text.osMutexAcquire
-                0x00000000080038a8       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
-                0x00000000080038a8                osMutexAcquire
+                0x00000000080038a4       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x00000000080038a4                osMutexAcquire
  .text.osMutexRelease
-                0x00000000080038d8       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
-                0x00000000080038d8                osMutexRelease
+                0x00000000080038d4       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x00000000080038d4                osMutexRelease
  .text.osMutexDelete
-                0x0000000008003908       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
-                0x0000000008003908                osMutexDelete
+                0x0000000008003904       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+                0x0000000008003904                osMutexDelete
  .text.atomic_inc16_lim
-                0x0000000008003938       0x1a BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
- *fill*         0x0000000008003952        0x2 
+                0x0000000008003934       0x1a BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+ *fill*         0x000000000800394e        0x2 
  .text.osRtxTick_Handler
-                0x0000000008003954       0x74 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
-                0x0000000008003954                osRtxTick_Handler
+                0x0000000008003950       0x74 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+                0x0000000008003950                osRtxTick_Handler
  .text.osRtxPendSV_Handler
-                0x00000000080039c8       0x88 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
-                0x00000000080039c8                osRtxPendSV_Handler
+                0x00000000080039c4       0x88 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+                0x00000000080039c4                osRtxPendSV_Handler
  .text.osRtxPostProcess
-                0x0000000008003a50       0x64 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
-                0x0000000008003a50                osRtxPostProcess
+                0x0000000008003a4c       0x64 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+                0x0000000008003a4c                osRtxPostProcess
  .text.IsIrqMasked
-                0x0000000008003ab4       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
- *fill*         0x0000000008003aca        0x2 
+                0x0000000008003ab0       0x16 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+ *fill*         0x0000000008003ac6        0x2 
  .text.osRtxThreadBlock
-                0x0000000008003acc       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003ac8       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.svcRtxThreadGetId
-                0x0000000008003afc        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003af8        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osThreadExit
-                0x0000000008003b08       0x1c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003b08                osThreadExit
+                0x0000000008003b04       0x1c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003b04                osThreadExit
  .text.ThreadFlagsCheck
-                0x0000000008003b24       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003b20       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadDelayInsert.part.4
-                0x0000000008003b8c       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003b88       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadDelayRemove
-                0x0000000008003bb4       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003bb0       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadFree
-                0x0000000008003c08       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003c04       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadListPut
-                0x0000000008003c5c       0x26 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003c5c                osRtxThreadListPut
+                0x0000000008003c58       0x26 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003c58                osRtxThreadListPut
  .text.osRtxThreadListGet
-                0x0000000008003c82       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003c82                osRtxThreadListGet
+                0x0000000008003c7e       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003c7e                osRtxThreadListGet
  .text.osRtxThreadListRemove
-                0x0000000008003c96       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003c96                osRtxThreadListRemove
+                0x0000000008003c92       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003c92                osRtxThreadListRemove
  .text.osRtxThreadListSort
-                0x0000000008003caa       0x24 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003caa                osRtxThreadListSort
- *fill*         0x0000000008003cce        0x2 
+                0x0000000008003ca6       0x24 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003ca6                osRtxThreadListSort
+ *fill*         0x0000000008003cca        0x2 
  .text.osRtxThreadReadyPut
-                0x0000000008003cd0       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003cd0                osRtxThreadReadyPut
+                0x0000000008003ccc       0x10 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003ccc                osRtxThreadReadyPut
  .text.osRtxThreadDelayTick
-                0x0000000008003ce0       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003ce0                osRtxThreadDelayTick
+                0x0000000008003cdc       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003cdc                osRtxThreadDelayTick
  .text.osRtxThreadRegPtr
-                0x0000000008003d10       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003d10                osRtxThreadRegPtr
+                0x0000000008003d0c       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003d0c                osRtxThreadRegPtr
  .text.osRtxThreadStackCheck
-                0x0000000008003d24       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003d24                osRtxThreadStackCheck
+                0x0000000008003d20       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003d20                osRtxThreadStackCheck
  .text.osRtxThreadSwitch
-                0x0000000008003d4c       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003d4c                osRtxThreadSwitch
+                0x0000000008003d48       0x14 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003d48                osRtxThreadSwitch
  .text.osRtxThreadDispatch
-                0x0000000008003d60       0x5c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003d60                osRtxThreadDispatch
+                0x0000000008003d5c       0x5c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003d5c                osRtxThreadDispatch
  .text.osRtxThreadWaitExit
-                0x0000000008003dbc       0x24 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003dbc                osRtxThreadWaitExit
+                0x0000000008003db8       0x24 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003db8                osRtxThreadWaitExit
  .text.osRtxThreadPostProcess
-                0x0000000008003de0       0x26 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
- *fill*         0x0000000008003e06        0x2 
+                0x0000000008003ddc       0x26 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+ *fill*         0x0000000008003e02        0x2 
  .text.svcRtxThreadNew
-                0x0000000008003e08      0x1d8 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003e04      0x1d8 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadWaitEnter
-                0x0000000008003fe0       0x70 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008003fe0                osRtxThreadWaitEnter
+                0x0000000008003fdc       0x70 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008003fdc                osRtxThreadWaitEnter
  .text.svcRtxThreadExit
-                0x0000000008004050       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x000000000800404c       0x68 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
  .text.osRtxThreadStartup
-                0x00000000080040b8       0x4c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x00000000080040b8                osRtxThreadStartup
+                0x00000000080040b4       0x4c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x00000000080040b4                osRtxThreadStartup
  .text.osThreadNew
-                0x0000000008004104       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008004104                osThreadNew
+                0x0000000008004100       0x30 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008004100                osThreadNew
  .text.osThreadGetId
-                0x0000000008004134       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
-                0x0000000008004134                osThreadGetId
+                0x0000000008004130       0x28 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+                0x0000000008004130                osThreadGetId
  .text.TimerInsert
-                0x000000000800415c       0x38 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
+                0x0000000008004158       0x38 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
  .text.osRtxTimerTick
-                0x0000000008004194       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
+                0x0000000008004190       0x54 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
  .text.osRtxTimerThread
-                0x00000000080041e8       0x44 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
-                0x00000000080041e8                osRtxTimerThread
+                0x00000000080041e4       0x44 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
+                0x00000000080041e4                osRtxTimerThread
  .text.OS_Tick_Setup
-                0x000000000800422c       0x40 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
-                0x000000000800422c                OS_Tick_Setup
+                0x0000000008004228       0x40 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+                0x0000000008004228                OS_Tick_Setup
  .text.OS_Tick_Enable
-                0x000000000800426c       0x2c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
-                0x000000000800426c                OS_Tick_Enable
+                0x0000000008004268       0x2c BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+                0x0000000008004268                OS_Tick_Enable
  .text.OS_Tick_AcknowledgeIRQ
-                0x0000000008004298        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
-                0x0000000008004298                OS_Tick_AcknowledgeIRQ
+                0x0000000008004294        0xc BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+                0x0000000008004294                OS_Tick_AcknowledgeIRQ
  .text.OS_Tick_GetIRQn
-                0x00000000080042a4        0x6 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
-                0x00000000080042a4                OS_Tick_GetIRQn
- *fill*         0x00000000080042aa        0x2 
+                0x00000000080042a0        0x6 BUILD/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+                0x00000000080042a0                OS_Tick_GetIRQn
+ *fill*         0x00000000080042a6        0x2 
  .text._ZN4rtos10ThisThread9sleep_forEm
-                0x00000000080042ac       0x1c BUILD/mbed-os/rtos/ThisThread.o
-                0x00000000080042ac                rtos::ThisThread::sleep_for(unsigned long)
+                0x00000000080042a8       0x1c BUILD/mbed-os/rtos/ThisThread.o
+                0x00000000080042a8                rtos::ThisThread::sleep_for(unsigned long)
  .text.SetSysClock_PLL_HSE.part.0
-                0x00000000080042c8       0x2e BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
- *fill*         0x00000000080042f6        0x2 
+                0x00000000080042c4       0x2e BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
+ *fill*         0x00000000080042f2        0x2 
  .text.SystemInit
-                0x00000000080042f8       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
-                0x00000000080042f8                SystemInit
+                0x00000000080042f4       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
+                0x00000000080042f4                SystemInit
  .text.SetSysClock_PLL_HSE
-                0x000000000800432c       0x84 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
-                0x000000000800432c                SetSysClock_PLL_HSE
+                0x0000000008004328       0x84 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
+                0x0000000008004328                SetSysClock_PLL_HSE
  .text.SetSysClock_PLL_HSI
-                0x00000000080043b0       0x7c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
-                0x00000000080043b0                SetSysClock_PLL_HSI
+                0x00000000080043ac       0x7c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
+                0x00000000080043ac                SetSysClock_PLL_HSI
  .text.SetSysClock
-                0x000000000800442c       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
-                0x000000000800442c                SetSysClock
+                0x0000000008004428       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_DISCO_F429ZI/system_clock.o
+                0x0000000008004428                SetSysClock
  .text.Reset_Handler
-                0x0000000008004448       0x54 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/TOOLCHAIN_GCC_ARM/startup_stm32f429xx.o
-                0x0000000008004448                Reset_Handler
+                0x0000000008004444       0x54 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/TOOLCHAIN_GCC_ARM/startup_stm32f429xx.o
+                0x0000000008004444                Reset_Handler
  .text.Default_Handler
-                0x000000000800449c        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/TOOLCHAIN_GCC_ARM/startup_stm32f429xx.o
-                0x000000000800449c                DMA1_Stream6_IRQHandler
-                0x000000000800449c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x000000000800449c                Default_Handler
-                0x000000000800449c                UART7_IRQHandler
-                0x000000000800449c                EXTI1_IRQHandler
-                0x000000000800449c                SPI4_IRQHandler
-                0x000000000800449c                TIM5_IRQHandler
-                0x000000000800449c                ADC_IRQHandler
-                0x000000000800449c                EXTI4_IRQHandler
-                0x000000000800449c                ETH_WKUP_IRQHandler
-                0x000000000800449c                DMA1_Stream7_IRQHandler
-                0x000000000800449c                I2C3_ER_IRQHandler
-                0x000000000800449c                DMA2_Stream6_IRQHandler
-                0x000000000800449c                DMA2_Stream0_IRQHandler
-                0x000000000800449c                DMA2D_IRQHandler
-                0x000000000800449c                TIM1_UP_TIM10_IRQHandler
-                0x000000000800449c                OTG_HS_IRQHandler
-                0x000000000800449c                DMA1_Stream5_IRQHandler
-                0x000000000800449c                OTG_HS_EP1_IN_IRQHandler
-                0x000000000800449c                UART4_IRQHandler
-                0x000000000800449c                USART1_IRQHandler
-                0x000000000800449c                TIM8_UP_TIM13_IRQHandler
-                0x000000000800449c                EXTI9_5_IRQHandler
-                0x000000000800449c                I2C3_EV_IRQHandler
-                0x000000000800449c                DMA2_Stream3_IRQHandler
-                0x000000000800449c                TIM1_BRK_TIM9_IRQHandler
-                0x000000000800449c                FLASH_IRQHandler
-                0x000000000800449c                DMA2_Stream4_IRQHandler
-                0x000000000800449c                I2C2_EV_IRQHandler
-                0x000000000800449c                RCC_IRQHandler
-                0x000000000800449c                UART5_IRQHandler
-                0x000000000800449c                RTC_WKUP_IRQHandler
-                0x000000000800449c                UART8_IRQHandler
-                0x000000000800449c                I2C2_ER_IRQHandler
-                0x000000000800449c                SPI2_IRQHandler
-                0x000000000800449c                USART3_IRQHandler
-                0x000000000800449c                SAI1_IRQHandler
-                0x000000000800449c                FMC_IRQHandler
-                0x000000000800449c                LTDC_IRQHandler
-                0x000000000800449c                OTG_HS_WKUP_IRQHandler
-                0x000000000800449c                SPI1_IRQHandler
-                0x000000000800449c                CAN2_RX1_IRQHandler
-                0x000000000800449c                EXTI15_10_IRQHandler
-                0x000000000800449c                HASH_RNG_IRQHandler
-                0x000000000800449c                OTG_HS_EP1_OUT_IRQHandler
-                0x000000000800449c                EXTI3_IRQHandler
-                0x000000000800449c                I2C1_EV_IRQHandler
-                0x000000000800449c                TIM6_DAC_IRQHandler
-                0x000000000800449c                TAMP_STAMP_IRQHandler
-                0x000000000800449c                EXTI0_IRQHandler
-                0x000000000800449c                TIM4_IRQHandler
-                0x000000000800449c                DMA1_Stream0_IRQHandler
-                0x000000000800449c                NMI_Handler
-                0x000000000800449c                USART6_IRQHandler
-                0x000000000800449c                OTG_FS_IRQHandler
-                0x000000000800449c                SPI3_IRQHandler
-                0x000000000800449c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x000000000800449c                TIM2_IRQHandler
-                0x000000000800449c                TIM7_IRQHandler
-                0x000000000800449c                DCMI_IRQHandler
-                0x000000000800449c                SPI6_IRQHandler
-                0x000000000800449c                ETH_IRQHandler
-                0x000000000800449c                DMA2_Stream7_IRQHandler
-                0x000000000800449c                I2C1_ER_IRQHandler
-                0x000000000800449c                TIM3_IRQHandler
-                0x000000000800449c                CAN1_RX1_IRQHandler
-                0x000000000800449c                DMA1_Stream1_IRQHandler
-                0x000000000800449c                RTC_Alarm_IRQHandler
-                0x000000000800449c                TIM8_CC_IRQHandler
-                0x000000000800449c                DMA1_Stream2_IRQHandler
-                0x000000000800449c                SDIO_IRQHandler
-                0x000000000800449c                DMA1_Stream3_IRQHandler
-                0x000000000800449c                USART2_IRQHandler
-                0x000000000800449c                DMA2_Stream2_IRQHandler
-                0x000000000800449c                FPU_IRQHandler
-                0x000000000800449c                SPI5_IRQHandler
-                0x000000000800449c                DMA1_Stream4_IRQHandler
-                0x000000000800449c                PVD_IRQHandler
-                0x000000000800449c                TIM1_CC_IRQHandler
-                0x000000000800449c                WWDG_IRQHandler
-                0x000000000800449c                DebugMon_Handler
-                0x000000000800449c                DMA2_Stream5_IRQHandler
-                0x000000000800449c                EXTI2_IRQHandler
-                0x000000000800449c                LTDC_ER_IRQHandler
-                0x000000000800449c                TIM8_BRK_TIM12_IRQHandler
-                0x000000000800449c                DMA2_Stream1_IRQHandler
-                0x000000000800449c                OTG_FS_WKUP_IRQHandler
- *fill*         0x000000000800449e        0x2 
+                0x0000000008004498        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/TOOLCHAIN_GCC_ARM/startup_stm32f429xx.o
+                0x0000000008004498                DMA1_Stream6_IRQHandler
+                0x0000000008004498                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008004498                Default_Handler
+                0x0000000008004498                UART7_IRQHandler
+                0x0000000008004498                EXTI1_IRQHandler
+                0x0000000008004498                SPI4_IRQHandler
+                0x0000000008004498                TIM5_IRQHandler
+                0x0000000008004498                ADC_IRQHandler
+                0x0000000008004498                EXTI4_IRQHandler
+                0x0000000008004498                ETH_WKUP_IRQHandler
+                0x0000000008004498                DMA1_Stream7_IRQHandler
+                0x0000000008004498                I2C3_ER_IRQHandler
+                0x0000000008004498                DMA2_Stream6_IRQHandler
+                0x0000000008004498                DMA2_Stream0_IRQHandler
+                0x0000000008004498                DMA2D_IRQHandler
+                0x0000000008004498                TIM1_UP_TIM10_IRQHandler
+                0x0000000008004498                OTG_HS_IRQHandler
+                0x0000000008004498                DMA1_Stream5_IRQHandler
+                0x0000000008004498                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008004498                UART4_IRQHandler
+                0x0000000008004498                USART1_IRQHandler
+                0x0000000008004498                TIM8_UP_TIM13_IRQHandler
+                0x0000000008004498                EXTI9_5_IRQHandler
+                0x0000000008004498                I2C3_EV_IRQHandler
+                0x0000000008004498                DMA2_Stream3_IRQHandler
+                0x0000000008004498                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008004498                FLASH_IRQHandler
+                0x0000000008004498                DMA2_Stream4_IRQHandler
+                0x0000000008004498                I2C2_EV_IRQHandler
+                0x0000000008004498                RCC_IRQHandler
+                0x0000000008004498                UART5_IRQHandler
+                0x0000000008004498                RTC_WKUP_IRQHandler
+                0x0000000008004498                UART8_IRQHandler
+                0x0000000008004498                I2C2_ER_IRQHandler
+                0x0000000008004498                SPI2_IRQHandler
+                0x0000000008004498                USART3_IRQHandler
+                0x0000000008004498                SAI1_IRQHandler
+                0x0000000008004498                FMC_IRQHandler
+                0x0000000008004498                LTDC_IRQHandler
+                0x0000000008004498                OTG_HS_WKUP_IRQHandler
+                0x0000000008004498                SPI1_IRQHandler
+                0x0000000008004498                CAN2_RX1_IRQHandler
+                0x0000000008004498                EXTI15_10_IRQHandler
+                0x0000000008004498                HASH_RNG_IRQHandler
+                0x0000000008004498                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008004498                EXTI3_IRQHandler
+                0x0000000008004498                I2C1_EV_IRQHandler
+                0x0000000008004498                TIM6_DAC_IRQHandler
+                0x0000000008004498                TAMP_STAMP_IRQHandler
+                0x0000000008004498                EXTI0_IRQHandler
+                0x0000000008004498                TIM4_IRQHandler
+                0x0000000008004498                DMA1_Stream0_IRQHandler
+                0x0000000008004498                NMI_Handler
+                0x0000000008004498                USART6_IRQHandler
+                0x0000000008004498                OTG_FS_IRQHandler
+                0x0000000008004498                SPI3_IRQHandler
+                0x0000000008004498                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008004498                TIM2_IRQHandler
+                0x0000000008004498                TIM7_IRQHandler
+                0x0000000008004498                DCMI_IRQHandler
+                0x0000000008004498                SPI6_IRQHandler
+                0x0000000008004498                ETH_IRQHandler
+                0x0000000008004498                DMA2_Stream7_IRQHandler
+                0x0000000008004498                I2C1_ER_IRQHandler
+                0x0000000008004498                TIM3_IRQHandler
+                0x0000000008004498                CAN1_RX1_IRQHandler
+                0x0000000008004498                DMA1_Stream1_IRQHandler
+                0x0000000008004498                RTC_Alarm_IRQHandler
+                0x0000000008004498                TIM8_CC_IRQHandler
+                0x0000000008004498                DMA1_Stream2_IRQHandler
+                0x0000000008004498                SDIO_IRQHandler
+                0x0000000008004498                DMA1_Stream3_IRQHandler
+                0x0000000008004498                USART2_IRQHandler
+                0x0000000008004498                DMA2_Stream2_IRQHandler
+                0x0000000008004498                FPU_IRQHandler
+                0x0000000008004498                SPI5_IRQHandler
+                0x0000000008004498                DMA1_Stream4_IRQHandler
+                0x0000000008004498                PVD_IRQHandler
+                0x0000000008004498                TIM1_CC_IRQHandler
+                0x0000000008004498                WWDG_IRQHandler
+                0x0000000008004498                DebugMon_Handler
+                0x0000000008004498                DMA2_Stream5_IRQHandler
+                0x0000000008004498                EXTI2_IRQHandler
+                0x0000000008004498                LTDC_ER_IRQHandler
+                0x0000000008004498                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008004498                DMA2_Stream1_IRQHandler
+                0x0000000008004498                OTG_FS_WKUP_IRQHandler
+ *fill*         0x000000000800449a        0x2 
  .text.SystemInitPre
-                0x00000000080044a0       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/system_init_pre.o
-                0x00000000080044a0                SystemInitPre
+                0x000000000800449c       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/device/system_init_pre.o
+                0x000000000800449c                SystemInitPre
  .text.HAL_MspInit
-                0x00000000080044bc        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.o
-                0x00000000080044bc                HAL_MspInit
- *fill*         0x00000000080044be        0x2 
+                0x00000000080044b8        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.o
+                0x00000000080044b8                HAL_MspInit
+ *fill*         0x00000000080044ba        0x2 
  .text.HAL_Init
-                0x00000000080044c0       0x30 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.o
-                0x00000000080044c0                HAL_Init
+                0x00000000080044bc       0x30 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.o
+                0x00000000080044bc                HAL_Init
  .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080044f0       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cortex.o
-                0x00000000080044f0                HAL_NVIC_SetPriorityGrouping
+                0x00000000080044ec       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cortex.o
+                0x00000000080044ec                HAL_NVIC_SetPriorityGrouping
  .text.HAL_PWR_EnterSLEEPMode
-                0x0000000008004514       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.o
-                0x0000000008004514                HAL_PWR_EnterSLEEPMode
+                0x0000000008004510       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.o
+                0x0000000008004510                HAL_PWR_EnterSLEEPMode
  .text.HAL_PWR_EnterSTOPMode
-                0x0000000008004534       0x38 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.o
-                0x0000000008004534                HAL_PWR_EnterSTOPMode
+                0x0000000008004530       0x38 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.o
+                0x0000000008004530                HAL_PWR_EnterSTOPMode
  .text.HAL_PWREx_EnableOverDrive
-                0x000000000800456c       0x78 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr_ex.o
-                0x000000000800456c                HAL_PWREx_EnableOverDrive
+                0x0000000008004568       0x78 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr_ex.o
+                0x0000000008004568                HAL_PWREx_EnableOverDrive
  .text.HAL_RCC_OscConfig
-                0x00000000080045e4      0x304 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x00000000080045e4                HAL_RCC_OscConfig
+                0x00000000080045e0      0x304 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x00000000080045e0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x00000000080048e8       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x00000000080048e8                HAL_RCC_GetSysClockFreq
+                0x00000000080048e4       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x00000000080048e4                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008004944      0x130 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x0000000008004944                HAL_RCC_ClockConfig
+                0x0000000008004940      0x130 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x0000000008004940                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008004a74       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x0000000008004a74                HAL_RCC_GetPCLK1Freq
+                0x0000000008004a70       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x0000000008004a70                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008004a94       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x0000000008004a94                HAL_RCC_GetPCLK2Freq
+                0x0000000008004a90       0x20 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x0000000008004a90                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCC_GetOscConfig
-                0x0000000008004ab4       0x9c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x0000000008004ab4                HAL_RCC_GetOscConfig
+                0x0000000008004ab0       0x9c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x0000000008004ab0                HAL_RCC_GetOscConfig
  .text.HAL_RCC_GetClockConfig
-                0x0000000008004b50       0x3c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
-                0x0000000008004b50                HAL_RCC_GetClockConfig
+                0x0000000008004b4c       0x3c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.o
+                0x0000000008004b4c                HAL_RCC_GetClockConfig
  .text.HAL_TIM_OC_MspInit
-                0x0000000008004b8c        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004b8c                HAL_TIM_OC_MspInit
- *fill*         0x0000000008004b8e        0x2 
+                0x0000000008004b88        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004b88                HAL_TIM_OC_MspInit
+ *fill*         0x0000000008004b8a        0x2 
  .text.TIM_Base_SetConfig
-                0x0000000008004b90       0xc4 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004b90                TIM_Base_SetConfig
+                0x0000000008004b8c       0xc4 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004b8c                TIM_Base_SetConfig
  .text.HAL_TIM_OC_Init
-                0x0000000008004c54       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004c54                HAL_TIM_OC_Init
+                0x0000000008004c50       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004c50                HAL_TIM_OC_Init
  .text.TIM_CCxChannelCmd
-                0x0000000008004c88       0x18 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004c88                TIM_CCxChannelCmd
+                0x0000000008004c84       0x18 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004c84                TIM_CCxChannelCmd
  .text.HAL_TIM_OC_Start
-                0x0000000008004ca0       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004ca0                HAL_TIM_OC_Start
+                0x0000000008004c9c       0x34 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004c9c                HAL_TIM_OC_Start
  .text.HAL_TIM_OC_Stop
-                0x0000000008004cd4       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
-                0x0000000008004cd4                HAL_TIM_OC_Stop
+                0x0000000008004cd0       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.o
+                0x0000000008004cd0                HAL_TIM_OC_Stop
  .text.UART_SetConfig
-                0x0000000008004d30      0x234 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
+                0x0000000008004d2c      0x234 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
  .text.HAL_UART_MspInit
-                0x0000000008004f64        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
-                0x0000000008004f64                HAL_UART_MspInit
+                0x0000000008004f60        0x2 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
+                0x0000000008004f60                HAL_UART_MspInit
  .text.HAL_UART_Init
-                0x0000000008004f66       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
-                0x0000000008004f66                HAL_UART_Init
- *fill*         0x0000000008004fc2        0x2 
+                0x0000000008004f62       0x5c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.o
+                0x0000000008004f62                HAL_UART_Init
+ *fill*         0x0000000008004fbe        0x2 
  .text.SystemCoreClockUpdate
-                0x0000000008004fc4       0x74 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/system_stm32f4xx.o
-                0x0000000008004fc4                SystemCoreClockUpdate
+                0x0000000008004fc0       0x74 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/system_stm32f4xx.o
+                0x0000000008004fc0                SystemCoreClockUpdate
  .text.HAL_InitPre
-                0x0000000008005038        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/hal_init_pre.o
-                0x0000000008005038                HAL_InitPre
+                0x0000000008005034        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/hal_init_pre.o
+                0x0000000008005034                HAL_InitPre
  .text.uart_irq
-                0x0000000008005044       0x68 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005040       0x68 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart8_irq
-                0x00000000080050ac        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050a8        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart7_irq
-                0x00000000080050b8        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050b4        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart6_irq
-                0x00000000080050c4        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050c0        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart5_irq
-                0x00000000080050d0        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050cc        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart4_irq
-                0x00000000080050dc        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050d8        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart3_irq
-                0x00000000080050e8        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050e4        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart2_irq
-                0x00000000080050f4        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050f0        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.uart1_irq
-                0x0000000008005100        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x00000000080050fc        0xc BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.__NVIC_EnableIRQ
-                0x000000000800510c       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005108       0x1c BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.__NVIC_DisableIRQ
-                0x0000000008005128       0x28 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005124       0x28 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
  .text.serial_irq_handler
-                0x0000000008005150       0x18 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-                0x0000000008005150                serial_irq_handler
+                0x000000000800514c       0x18 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x000000000800514c                serial_irq_handler
  .text.serial_irq_set
-                0x0000000008005168      0x100 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-                0x0000000008005168                serial_irq_set
+                0x0000000008005164      0x100 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005164                serial_irq_set
  .text.serial_getc
-                0x0000000008005268       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-                0x0000000008005268                serial_getc
+                0x0000000008005264       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005264                serial_getc
  .text.serial_putc
-                0x000000000800528c       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-                0x000000000800528c                serial_putc
- .text.can_irq  0x00000000080052b0       0xf4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x0000000008005288       0x24 BUILD/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+                0x0000000008005288                serial_putc
+ .text.can_irq  0x00000000080052ac       0xf4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
  .text.CAN1_RX0_IRQHandler
-                0x00000000080053a4        0xc BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053a4                CAN1_RX0_IRQHandler
+                0x00000000080053a0        0xc BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053a0                CAN1_RX0_IRQHandler
  .text.CAN1_TX_IRQHandler
-                0x00000000080053b0        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053b0                CAN1_TX_IRQHandler
+                0x00000000080053ac        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053ac                CAN1_TX_IRQHandler
  .text.CAN1_SCE_IRQHandler
-                0x00000000080053b4        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053b4                CAN1_SCE_IRQHandler
+                0x00000000080053b0        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053b0                CAN1_SCE_IRQHandler
  .text.CAN2_RX0_IRQHandler
-                0x00000000080053b8        0xc BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053b8                CAN2_RX0_IRQHandler
+                0x00000000080053b4        0xc BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053b4                CAN2_RX0_IRQHandler
  .text.CAN2_TX_IRQHandler
-                0x00000000080053c4        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053c4                CAN2_TX_IRQHandler
+                0x00000000080053c0        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053c0                CAN2_TX_IRQHandler
  .text.CAN2_SCE_IRQHandler
-                0x00000000080053c8        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
-                0x00000000080053c8                CAN2_SCE_IRQHandler
+                0x00000000080053c4        0x4 BUILD/mbed-os/targets/TARGET_STM/can_api.o
+                0x00000000080053c4                CAN2_SCE_IRQHandler
  .text.Set_GPIO_Clock
-                0x00000000080053cc      0x164 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
-                0x00000000080053cc                Set_GPIO_Clock
+                0x00000000080053c8      0x164 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
+                0x00000000080053c8                Set_GPIO_Clock
  .text.gpio_set
-                0x0000000008005530       0x2c BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
-                0x0000000008005530                gpio_set
+                0x000000000800552c       0x2c BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
+                0x000000000800552c                gpio_set
  .text.gpio_init
-                0x000000000800555c       0x40 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
-                0x000000000800555c                gpio_init
+                0x0000000008005558       0x40 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
+                0x0000000008005558                gpio_init
  .text.gpio_mode
-                0x000000000800559c        0x8 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
-                0x000000000800559c                gpio_mode
+                0x0000000008005598        0x8 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
+                0x0000000008005598                gpio_mode
  .text.gpio_dir
-                0x00000000080055a4       0x52 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
-                0x00000000080055a4                gpio_dir
+                0x00000000080055a0       0x52 BUILD/mbed-os/targets/TARGET_STM/gpio_api.o
+                0x00000000080055a0                gpio_dir
  .text.HAL_InitTick
-                0x00000000080055f6        0xa BUILD/mbed-os/targets/TARGET_STM/hal_tick_overrides.o
-                0x00000000080055f6                HAL_InitTick
+                0x00000000080055f2        0xa BUILD/mbed-os/targets/TARGET_STM/hal_tick_overrides.o
+                0x00000000080055f2                HAL_InitTick
  .text.HAL_GetTick
-                0x0000000008005600       0x30 BUILD/mbed-os/targets/TARGET_STM/hal_tick_overrides.o
-                0x0000000008005600                HAL_GetTick
+                0x00000000080055fc       0x30 BUILD/mbed-os/targets/TARGET_STM/hal_tick_overrides.o
+                0x00000000080055fc                HAL_GetTick
  .text.mbed_sdk_init
-                0x0000000008005630       0x58 BUILD/mbed-os/targets/TARGET_STM/mbed_overrides.o
-                0x0000000008005630                mbed_sdk_init
+                0x000000000800562c       0x58 BUILD/mbed-os/targets/TARGET_STM/mbed_overrides.o
+                0x000000000800562c                mbed_sdk_init
  .text.LL_GPIO_SetPinPull
-                0x0000000008005688       0x2c BUILD/mbed-os/targets/TARGET_STM/pinmap.o
+                0x0000000008005684       0x2c BUILD/mbed-os/targets/TARGET_STM/pinmap.o
  .text.stm_pin_PullConfig
-                0x00000000080056b4        0xe BUILD/mbed-os/targets/TARGET_STM/pinmap.o
- *fill*         0x00000000080056c2        0x2 
+                0x00000000080056b0        0xe BUILD/mbed-os/targets/TARGET_STM/pinmap.o
+ *fill*         0x00000000080056be        0x2 
  .text.pin_function
-                0x00000000080056c4      0x124 BUILD/mbed-os/targets/TARGET_STM/pinmap.o
-                0x00000000080056c4                pin_function
+                0x00000000080056c0      0x124 BUILD/mbed-os/targets/TARGET_STM/pinmap.o
+                0x00000000080056c0                pin_function
  .text.pin_mode
-                0x00000000080057e8       0x94 BUILD/mbed-os/targets/TARGET_STM/pinmap.o
-                0x00000000080057e8                pin_mode
+                0x00000000080057e4       0x94 BUILD/mbed-os/targets/TARGET_STM/pinmap.o
+                0x00000000080057e4                pin_mode
  .text.debug.constprop.1
-                0x000000000800587c       0x28 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x0000000008005878       0x28 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
  .text.serial_readable
-                0x00000000080058a4       0x2c BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x00000000080058a4                serial_readable
+                0x00000000080058a0       0x2c BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x00000000080058a0                serial_readable
  .text.serial_writable
-                0x00000000080058d0       0x14 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x00000000080058d0                serial_writable
+                0x00000000080058cc       0x14 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x00000000080058cc                serial_writable
  .text.init_uart
-                0x00000000080058e4       0x58 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x00000000080058e4                init_uart
+                0x00000000080058e0       0x58 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x00000000080058e0                init_uart
  .text.serial_baud
-                0x000000000800593c       0x20 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x000000000800593c                serial_baud
+                0x0000000008005938       0x20 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x0000000008005938                serial_baud
  .text.get_uart_index
-                0x000000000800595c       0x68 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x000000000800595c                get_uart_index
+                0x0000000008005958       0x68 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x0000000008005958                get_uart_index
  .text.serial_init
-                0x00000000080059c4      0x1fc BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x00000000080059c4                serial_init
+                0x00000000080059c0      0x1fc BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x00000000080059c0                serial_init
  .text.serial_is_tx_ongoing
-                0x0000000008005bc0       0xb8 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
-                0x0000000008005bc0                serial_is_tx_ongoing
+                0x0000000008005bbc       0xb8 BUILD/mbed-os/targets/TARGET_STM/serial_api.o
+                0x0000000008005bbc                serial_is_tx_ongoing
  .text.hal_sleep
-                0x0000000008005c78       0x16 BUILD/mbed-os/targets/TARGET_STM/sleep.o
-                0x0000000008005c78                hal_sleep
- *fill*         0x0000000008005c8e        0x2 
+                0x0000000008005c74       0x16 BUILD/mbed-os/targets/TARGET_STM/sleep.o
+                0x0000000008005c74                hal_sleep
+ *fill*         0x0000000008005c8a        0x2 
  .text.hal_deepsleep
-                0x0000000008005c90       0xd0 BUILD/mbed-os/targets/TARGET_STM/sleep.o
-                0x0000000008005c90                hal_deepsleep
+                0x0000000008005c8c       0xd0 BUILD/mbed-os/targets/TARGET_STM/sleep.o
+                0x0000000008005c8c                hal_deepsleep
  .text.timer_irq_handler
-                0x0000000008005d60       0x28 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005d60                timer_irq_handler
+                0x0000000008005d5c       0x28 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005d5c                timer_irq_handler
  .text.us_ticker_get_info
-                0x0000000008005d88        0x8 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005d88                us_ticker_get_info
+                0x0000000008005d84        0x8 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005d84                us_ticker_get_info
  .text.init_32bit_timer
-                0x0000000008005d90       0xa8 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005d90                init_32bit_timer
+                0x0000000008005d8c       0xa8 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005d8c                init_32bit_timer
  .text.us_ticker_init
-                0x0000000008005e38       0x18 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005e38                us_ticker_init
+                0x0000000008005e34       0x18 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005e34                us_ticker_init
  .text.us_ticker_read
-                0x0000000008005e50        0xc BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005e50                us_ticker_read
+                0x0000000008005e4c        0xc BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005e4c                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x0000000008005e5c       0x1c BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005e5c                us_ticker_set_interrupt
+                0x0000000008005e58       0x1c BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005e58                us_ticker_set_interrupt
  .text.us_ticker_fire_interrupt
-                0x0000000008005e78       0x20 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005e78                us_ticker_fire_interrupt
+                0x0000000008005e74       0x20 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005e74                us_ticker_fire_interrupt
  .text.us_ticker_disable_interrupt
-                0x0000000008005e98       0x14 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005e98                us_ticker_disable_interrupt
+                0x0000000008005e94       0x14 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005e94                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x0000000008005eac       0x10 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005eac                us_ticker_clear_interrupt
+                0x0000000008005ea8       0x10 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005ea8                us_ticker_clear_interrupt
  .text.save_timer_ctx
-                0x0000000008005ebc       0x30 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005ebc                save_timer_ctx
+                0x0000000008005eb8       0x30 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005eb8                save_timer_ctx
  .text.restore_timer_ctx
-                0x0000000008005eec       0x30 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005eec                restore_timer_ctx
+                0x0000000008005ee8       0x30 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005ee8                restore_timer_ctx
  .text.us_ticker_free
-                0x0000000008005f1c       0x18 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
-                0x0000000008005f1c                us_ticker_free
+                0x0000000008005f18       0x18 BUILD/mbed-os/targets/TARGET_STM/us_ticker.o
+                0x0000000008005f18                us_ticker_free
  .text._calloc_r
-                0x0000000008005f34       0x68 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-callocr.o)
-                0x0000000008005f34                _calloc_r
- .text.__errno  0x0000000008005f9c        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-errno.o)
-                0x0000000008005f9c                __errno
+                0x0000000008005f30       0x68 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-callocr.o)
+                0x0000000008005f30                _calloc_r
+ .text.__errno  0x0000000008005f98        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-errno.o)
+                0x0000000008005f98                __errno
  .text._fclose_r
-                0x0000000008005fa8       0xd0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fclose.o)
-                0x0000000008005fa8                _fclose_r
- .text.fclose   0x0000000008006078       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fclose.o)
-                0x0000000008006078                fclose
+                0x0000000008005fa4       0xd0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fclose.o)
+                0x0000000008005fa4                _fclose_r
+ .text.fclose   0x0000000008006074       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fclose.o)
+                0x0000000008006074                fclose
  .text.__sflush_r
-                0x0000000008006088      0x154 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
-                0x0000000008006088                __sflush_r
+                0x0000000008006084      0x154 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
+                0x0000000008006084                __sflush_r
  .text._fflush_r
-                0x00000000080061dc       0x5c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
-                0x00000000080061dc                _fflush_r
- .text.fflush   0x0000000008006238       0x24 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
-                0x0000000008006238                fflush
- .text.std      0x000000000800625c       0x50 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080061d8       0x5c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
+                0x00000000080061d8                _fflush_r
+ .text.fflush   0x0000000008006234       0x24 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fflush.o)
+                0x0000000008006234                fflush
+ .text.std      0x0000000008006258       0x50 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x00000000080062ac        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x00000000080062ac                _cleanup_r
+                0x00000000080062a8        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080062a8                _cleanup_r
  .text.__sfmoreglue
-                0x00000000080062b8       0x30 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x00000000080062b8                __sfmoreglue
- .text.__sinit  0x00000000080062e8       0x58 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x00000000080062e8                __sinit
- .text.__sfp    0x0000000008006340       0xa4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x0000000008006340                __sfp
+                0x00000000080062b4       0x30 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080062b4                __sfmoreglue
+ .text.__sinit  0x00000000080062e4       0x58 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080062e4                __sinit
+ .text.__sfp    0x000000000800633c       0xa4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x000000000800633c                __sfp
  .text.__sfp_lock_acquire
-                0x00000000080063e4        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x00000000080063e4                __sfp_lock_acquire
+                0x00000000080063e0        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080063e0                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x00000000080063f0        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
-                0x00000000080063f0                __sfp_lock_release
+                0x00000000080063ec        0xc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-findfp.o)
+                0x00000000080063ec                __sfp_lock_release
  .text._fopen_r
-                0x00000000080063fc       0xc0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fopen.o)
-                0x00000000080063fc                _fopen_r
- .text.fopen    0x00000000080064bc       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fopen.o)
-                0x00000000080064bc                fopen
+                0x00000000080063f8       0xc0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fopen.o)
+                0x00000000080063f8                _fopen_r
+ .text.fopen    0x00000000080064b8       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fopen.o)
+                0x00000000080064b8                fopen
  .text._malloc_trim_r
-                0x00000000080064cc       0xa0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-freer.o)
-                0x00000000080064cc                _malloc_trim_r
- .text._free_r  0x000000000800656c      0x1e8 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-freer.o)
-                0x000000000800656c                _free_r
+                0x00000000080064c8       0xa0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-freer.o)
+                0x00000000080064c8                _malloc_trim_r
+ .text._free_r  0x0000000008006568      0x1e8 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-freer.o)
+                0x0000000008006568                _free_r
  .text._fseek_r
-                0x0000000008006754        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fseek.o)
-                0x0000000008006754                _fseek_r
+                0x0000000008006750        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fseek.o)
+                0x0000000008006750                _fseek_r
  .text._fseeko_r
-                0x0000000008006758      0x318 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fseeko.o)
-                0x0000000008006758                _fseeko_r
+                0x0000000008006754      0x318 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fseeko.o)
+                0x0000000008006754                _fseeko_r
  .text._fstat_r
-                0x0000000008006a70       0x28 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fstatr.o)
-                0x0000000008006a70                _fstat_r
+                0x0000000008006a6c       0x28 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fstatr.o)
+                0x0000000008006a6c                _fstat_r
  .text.__sfvwrite_r
-                0x0000000008006a98      0x2fc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fvwrite.o)
-                0x0000000008006a98                __sfvwrite_r
- .text._fwalk   0x0000000008006d94       0x4c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fwalk.o)
-                0x0000000008006d94                _fwalk
+                0x0000000008006a94      0x2fc /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fvwrite.o)
+                0x0000000008006a94                __sfvwrite_r
+ .text._fwalk   0x0000000008006d90       0x4c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fwalk.o)
+                0x0000000008006d90                _fwalk
  .text._fwalk_reent
-                0x0000000008006de0       0x54 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fwalk.o)
-                0x0000000008006de0                _fwalk_reent
+                0x0000000008006ddc       0x54 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-fwalk.o)
+                0x0000000008006ddc                _fwalk_reent
  .text.__libc_init_array
-                0x0000000008006e34       0x48 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-init.o)
-                0x0000000008006e34                __libc_init_array
+                0x0000000008006e30       0x48 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-init.o)
+                0x0000000008006e30                __libc_init_array
  .text.__locale_mb_cur_max
-                0x0000000008006e7c       0x1c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-locale.o)
-                0x0000000008006e7c                __locale_mb_cur_max
+                0x0000000008006e78       0x1c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-locale.o)
+                0x0000000008006e78                __locale_mb_cur_max
  .text.__retarget_lock_init_recursive
-                0x0000000008006e98        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
-                0x0000000008006e98                __retarget_lock_init_recursive
+                0x0000000008006e94        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
+                0x0000000008006e94                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x0000000008006e9c        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
-                0x0000000008006e9c                __retarget_lock_close_recursive
+                0x0000000008006e98        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
+                0x0000000008006e98                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0000000008006ea0        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
-                0x0000000008006ea0                __retarget_lock_acquire_recursive
+                0x0000000008006e9c        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
+                0x0000000008006e9c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008006ea4        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
-                0x0000000008006ea4                __retarget_lock_release_recursive
+                0x0000000008006ea0        0x4 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-lock.o)
+                0x0000000008006ea0                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x0000000008006ea8       0x5c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-makebuf.o)
-                0x0000000008006ea8                __swhatbuf_r
+                0x0000000008006ea4       0x5c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-makebuf.o)
+                0x0000000008006ea4                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000008006f04       0x94 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-makebuf.o)
-                0x0000000008006f04                __smakebuf_r
- .text.malloc   0x0000000008006f98       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-malloc.o)
-                0x0000000008006f98                malloc
- .text.free     0x0000000008006fa8       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-malloc.o)
-                0x0000000008006fa8                free
+                0x0000000008006f00       0x94 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-makebuf.o)
+                0x0000000008006f00                __smakebuf_r
+ .text.malloc   0x0000000008006f94       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-malloc.o)
+                0x0000000008006f94                malloc
+ .text.free     0x0000000008006fa4       0x10 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-malloc.o)
+                0x0000000008006fa4                free
  .text._malloc_r
-                0x0000000008006fb8      0x548 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-mallocr.o)
-                0x0000000008006fb8                _malloc_r
+                0x0000000008006fb4      0x548 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-mallocr.o)
+                0x0000000008006fb4                _malloc_r
  .text.__ascii_mbtowc
-                0x0000000008007500       0x2c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-mbtowc_r.o)
-                0x0000000008007500                __ascii_mbtowc
- *fill*         0x000000000800752c        0x4 
+                0x00000000080074fc       0x2c /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-mbtowc_r.o)
+                0x00000000080074fc                __ascii_mbtowc
+ *fill*         0x0000000008007528        0x8 
  .text          0x0000000008007530       0xa0 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-memchr.o)
                 0x0000000008007530                memchr
  .text.memcmp   0x00000000080075d0       0x64 /Users/rueloquindo/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a(lib_a-memcmp.o)

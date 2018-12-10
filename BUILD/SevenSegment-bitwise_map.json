@@ -3,11 +3,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": 4, 
             ".bss": 36, 
             ".data": 12, 
             ".bss-delta": 0, 
-            ".text": 155
+            ".text": 159
         }
     }, 
     {
@@ -47,11 +47,11 @@
         "module": "main.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
+            ".text-delta": -4, 
             ".bss": 572, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 1008
+            ".text": 1004
         }
     }, 
     {
