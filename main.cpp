@@ -87,40 +87,49 @@ void Display_Digit(int DigitPosition, int Number){
     wait(DISPLAY_DELAY);
 }
 
-void Display_Number(int Number){
+void Display_Number(int Number, uint32_t Duration_ms){
   int hundreds, tens, ones;
+  uint32_t start_time, elapsed_time_ms = 0;
+  Timer t;
 
-  // This is probably not the most efficient 
-  // way of extracting the individual digits.
-  // It works, but have a feeling there's a faster way.
+  t.start();  // start timer, we'll use this to setup elapsed time
+
   if (Number > 99){
     hundreds = Number / 100;
-    Display_Digit(1, hundreds);
-    wait(0.0025);    // if delay is too short, LED will be dim. If too long, we'll have flickering
-
     tens = (Number % 100) / 10;
-    Display_Digit(2, tens);
-    wait(0.002);
-
     ones = (Number % 100) % 10;
-    Display_Digit(3, ones);
-    wait(0.001);
+
+    start_time = t.read();
+    while(elapsed_time_ms < Duration_ms){
+      Display_Digit(1, hundreds); 
+      Display_Digit(2, tens);     
+      Display_Digit(3, ones);     
+      elapsed_time_ms = t.read_ms() - start_time;
+    }
   }
 
   if (Number > 9){  
     tens = (Number % 100) / 10;
-    Display_Digit(2, tens);
-    wait(0.001);
-
     ones = (Number % 100) % 10;
-    Display_Digit(3, ones);
-    wait(0.002);
+
+    start_time = t.read();
+    while(elapsed_time_ms < Duration_ms){
+      Display_Digit(2, tens);   
+      Display_Digit(3, ones);   
+      elapsed_time_ms = t.read_ms() - start_time;
+    }
   }
   else {
-    Display_Digit(3, Number);
-    wait(0.0025);
+    start_time = t.read();
+    while(elapsed_time_ms < Duration_ms){
+      Display_Digit(3, Number); 
+      elapsed_time_ms = t.read_ms() - start_time;
+    }      
   } 
+
+  t.stop(); // stop timer
 }
+
 
 int main() {
   // set usb serial
@@ -130,9 +139,8 @@ int main() {
 
   while(true){
     for (int i=0; i<1000; i++){
-       Display_Number(i);
+       Display_Number(i, 100); // Number, Duration_ms
     }
-    // Display_Number(125);
   }
 
   return 0;  
