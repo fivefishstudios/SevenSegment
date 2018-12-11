@@ -4,7 +4,7 @@ using namespace std;
 // serial comms for debugging
 Serial pc(USBTX, USBRX);  
 
-#define DISPLAY_DELAY 0.0001   // 2 milliseconds
+#define DISPLAY_DELAY 0.0001f   // 100 us 
 
 static const int Digits[] = {
   //abcdefgp    // 7-segment display + decimal point
@@ -81,7 +81,7 @@ void Display_Digit(int DigitPosition, int Number){
 void Display_Number(int Number, uint32_t Duration_ms)
 {
   int hundreds, tens, ones;
-  uint32_t start_time, elapsed_time_ms = 0;
+  uint32_t start_time_ms, elapsed_time_ms = 0;
   Timer t;
 
   hundreds = Number / 100;
@@ -89,13 +89,13 @@ void Display_Number(int Number, uint32_t Duration_ms)
   ones = (Number % 100) % 10;
 
   t.start(); // start timer, we'll use this to setup elapsed time
-  start_time = t.read();
+  start_time_ms = t.read_ms();
   while (elapsed_time_ms < Duration_ms)
   {
     Display_Digit(3, hundreds);
     Display_Digit(2, tens);
     Display_Digit(1, ones);
-    elapsed_time_ms = t.read_ms() - start_time;
+    elapsed_time_ms = t.read_ms() - start_time_ms;
   }
   t.stop(); // stop timer
 }
@@ -108,7 +108,7 @@ int main() {
 
   while(true){
     for (int i=0; i<1000; i++){
-       Display_Number(i, 250); // Number to display, Duration_ms
+       Display_Number(i, 1000); // Number to display, Duration_ms
     }
   }
 
