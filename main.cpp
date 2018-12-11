@@ -3,9 +3,8 @@ using namespace std;
 
 // serial comms for debugging
 Serial pc(USBTX, USBRX);  
-DigitalOut led(PG_13);    // just for testing... that the dev board is alive
 
-#define DISPLAY_DELAY 0.0002   // seconds
+#define DISPLAY_DELAY 0.0001   // 2 milliseconds
 
 static const int Digits[] = {
   //abcdefgp    // 7-segment display + decimal point
@@ -28,9 +27,9 @@ static const int Digits[] = {
 };
 
 // select which digit to light up 
-DigitalOut Digit1(PG_5); // anode for Digit1 (leftmost) set to HIGH to activate Digit
-DigitalOut Digit2(PG_7); // anode for Digit2 (middle)
-DigitalOut Digit3(PC_6); // anode for Digit3 (rightmost)
+DigitalOut Digit1(PC_6); // anode for Digit1 (ones)
+DigitalOut Digit2(PG_7); // anode for Digit2 (tens)
+DigitalOut Digit3(PG_5); // anode for Digit3 (hundreds)
 
 // NOTE: LED display is common anode, so these need to be logic 0 to light up LED segment
 DigitalOut SegmentA(PD_0);  // clockwise, starting from top segment
@@ -44,21 +43,12 @@ DigitalOut SegmentP(PD_7);  // decimal point
 
 void Display_Clear(){
   // reset all pins, clear display
-  SegmentA = !0;
-  SegmentB = !0;
-  SegmentC = !0;
-  SegmentD = !0;
-  SegmentE = !0;
-  SegmentF = !0;
-  SegmentG = !0;
-  SegmentP = !0;
-  Digit1 = 0;
-  Digit2 = 0;
-  Digit3 = 0;
+  SegmentA = SegmentB = SegmentC = SegmentD = SegmentE = SegmentF = SegmentG = SegmentP = !0;
+  Digit3 = Digit2 = Digit1 = 0;
 }
 
 void Display_Digit(int DigitPosition, int Number){
-    // we need to invert logic because we're using a common anode display
+    // common anode display, so invert logic to light up each segment
     SegmentA = !((Digits[Number] & 0b10000000) >> 7);
     SegmentB = !((Digits[Number] & 0b01000000) >> 6);
     SegmentC = !((Digits[Number] & 0b00100000) >> 5);
@@ -68,18 +58,19 @@ void Display_Digit(int DigitPosition, int Number){
     SegmentG = !((Digits[Number] & 0b00000010) >> 1);
     SegmentP = !((Digits[Number] & 0b00000001) >> 0);
 
-    // we need to clear out the other digits before displaying the new number. 
+    // we need to clear out the other digits before displaying the new digit 
     // otherwise, the same number will be displayed in all the digits. 
+    // common anode display, so logic 1 to light up the digit. 
     switch (DigitPosition) {
-      case 1: Digit1 = 1;
+      case 1: Digit1 = 1;   // ones 
               Digit2 = 0;
               Digit3 = 0;
               break;
-      case 2: Digit1 = 0;
+      case 2: Digit1 = 0;   // tens
               Digit2 = 1;
               Digit3 = 0;
               break;
-      case 3: Digit1 = 0;
+      case 3: Digit1 = 0;   // hundreds
               Digit2 = 0;
               Digit3 = 1;
               break;                            
@@ -87,49 +78,27 @@ void Display_Digit(int DigitPosition, int Number){
     wait(DISPLAY_DELAY);
 }
 
-void Display_Number(int Number, uint32_t Duration_ms){
+void Display_Number(int Number, uint32_t Duration_ms)
+{
   int hundreds, tens, ones;
   uint32_t start_time, elapsed_time_ms = 0;
   Timer t;
 
-  t.start();  // start timer, we'll use this to setup elapsed time
+  hundreds = Number / 100;
+  tens = (Number % 100) / 10;
+  ones = (Number % 100) % 10;
 
-  if (Number > 99){
-    hundreds = Number / 100;
-    tens = (Number % 100) / 10;
-    ones = (Number % 100) % 10;
-
-    start_time = t.read();
-    while(elapsed_time_ms < Duration_ms){
-      Display_Digit(1, hundreds); 
-      Display_Digit(2, tens);     
-      Display_Digit(3, ones);     
-      elapsed_time_ms = t.read_ms() - start_time;
-    }
+  t.start(); // start timer, we'll use this to setup elapsed time
+  start_time = t.read();
+  while (elapsed_time_ms < Duration_ms)
+  {
+    Display_Digit(3, hundreds);
+    Display_Digit(2, tens);
+    Display_Digit(1, ones);
+    elapsed_time_ms = t.read_ms() - start_time;
   }
-
-  if (Number > 9){  
-    tens = (Number % 100) / 10;
-    ones = (Number % 100) % 10;
-
-    start_time = t.read();
-    while(elapsed_time_ms < Duration_ms){
-      Display_Digit(2, tens);   
-      Display_Digit(3, ones);   
-      elapsed_time_ms = t.read_ms() - start_time;
-    }
-  }
-  else {
-    start_time = t.read();
-    while(elapsed_time_ms < Duration_ms){
-      Display_Digit(3, Number); 
-      elapsed_time_ms = t.read_ms() - start_time;
-    }      
-  } 
-
   t.stop(); // stop timer
 }
-
 
 int main() {
   // set usb serial
@@ -139,7 +108,7 @@ int main() {
 
   while(true){
     for (int i=0; i<1000; i++){
-       Display_Number(i, 100); // Number, Duration_ms
+       Display_Number(i, 250); // Number to display, Duration_ms
     }
   }
 
